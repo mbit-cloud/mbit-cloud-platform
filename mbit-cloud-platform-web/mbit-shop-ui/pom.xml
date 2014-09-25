@@ -40,4 +40,22 @@
             <artifactId>spring-cloud-starter-zuul</artifactId>
         </dependency>
     </dependencies>
+    
+    
+    <build>
+		<plugins>
+			<plugin>
+		      <groupId>org.springframework.boot</groupId>
+		      <artifactId>spring-boot-maven-plugin</artifactId>
+		      <version>1.1.6.RELEASE</version>
+		      <executions>
+		        <execution>
+		          <goals>
+		            <goal>repackage</goal>
+		          </goals>
+		        </execution>
+		      </executions>
+		    </plugin>
+		</plugins>
+	</build>
 </project>
