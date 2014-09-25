@@ -1,80 +1,0 @@
-10
-
-dir
-40429
-https://svn.anybet.de/mybet/mybet-labs/mybet-b2b-api/src/main/java/com/mybet/b2b/resources
-https://svn.anybet.de/mybet
-
-
-
-2012-06-12T14:14:12.919368Z
-40428
-hflambo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-08b9cc31-92c5-40ee-9f3c-e122b900c7b7
-
-useractions
-dir
-
-Paths.java
-file
-
-
-
-
-2012-06-12T08:23:48.000000Z
-f028d0bea1ec2debb72500933d5078cd
-2012-06-08T14:54:24.175000Z
-40360
-dgerhardt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1246
-
-interfaces
-dir
-
-program
-dir
-
-provider
-dir
-
-annotations
-dir
-
-general
-dir
-
