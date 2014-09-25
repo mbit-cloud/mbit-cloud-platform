@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  
+  
+  <xs:complexType name="Countries">
+    <xs:sequence>
+      <xs:element name="Country" minOccurs="0" maxOccurs="unbounded" >
+      <xs:complexType>
+      <xs:attribute name="ID" type="xs:integer" use="required" />
+      <xs:attribute name="Code" type="xs:string" />
+      <xs:attribute name="System_Of_Measurement" type="xs:string" />
+      </xs:complexType>		                          
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="DistributorList">
+	<xs:sequence>
+	  <xs:element name="Distributor" minOccurs="0" maxOccurs="unbounded" >
+        <xs:complexType>
+		  <xs:attribute name="ID" type="xs:integer" use="required" />
+		  <xs:attribute name="Code" type="xs:string" use="required" />
+		  <xs:attribute name="Name" type="xs:string" use="required" />
+        </xs:complexType>
+	  </xs:element>
+	</xs:sequence>
+  </xs:complexType>
+  
+  
+  
+  
+  
+  <xs:element name="ICECAT-interface">
+	<xs:complexType>
+	  <xs:choice>
+		<xs:element name="Response" type="Response" />
+	  </xs:choice>
+	</xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Response">
+	
+	<xs:attribute name="Status" type="xs:string" use="required" />
+	<xs:attribute name="Request_ID" type="xs:integer" use="required" />
+	<xs:attribute name="ID" type="xs:integer" use="required" />
+	<xs:attribute name="Date" type="xs:string" use="required" />
+	<xs:attribute name="Error" type="xs:string" />
+  </xs:complexType>
+
+  
+  
+
+  <xs:complexType name="Descriptions">
+	<xs:sequence>
+	  <xs:element name="Description" type="Description" minOccurs="0" maxOccurs="unbounded" />
+	</xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Description" mixed="true">
+	<xs:attribute name="ID" type="xs:integer" use="required" />
+	<xs:attribute name="langid" type="xs:integer" use="required" />
+	<xs:attribute name="Value" type="xs:string" />
+  </xs:complexType>
+
+
+  <xs:complexType name="DescribeProductsResponse">
+	<xs:sequence>
+	  <xs:element name="DescribeProductResponse" minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+		  <xs:attribute name="Product_id" type="xs:integer" />
+		  <xs:attribute name="Status" type="xs:integer" />
+		  <xs:attribute name="DescribeProductRequest_ID" type="xs:integer" />
+		  <xs:attribute name="Error" type="xs:string" />
+		</xs:complexType>
+	  </xs:element>
+	</xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="StatisticQueryListResponse">
+	<xs:sequence>
+	  <xs:element name="StatisticQuery" type="StatisticQuery" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="files" >
+	<xs:complexType>
+	  <xs:sequence>
+		<xs:element name="file" minOccurs="0" maxOccurs="unbounded" >
+		  <xs:complexType>
+			<xs:attribute name="path" type="xs:anyURI" />
+			<xs:attribute name="Product_id" type="xs:integer" />
+			<xs:attribute name="Updated" type="xs:string" />
+			<xs:attribute name="Quality" type="xs:string" />
+			<xs:attribute name="Supplier_id" type="xs:integer" />
+			<xs:attribute name="Prod_ID" type="xs:string" />
+		  </xs:complexType>
+		</xs:element>
+	  </xs:sequence>
+	  <xs:attribute name="Generated" type="xs:integer" />
+	</xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="StatisticQuery">
+	<xs:attribute name="ID" type="xs:integer" use="required" />
+	<xs:attribute name="Code" type="xs:integer" />
+	<xs:attribute name="Period" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="StatisticQueryDate">
+	<xs:attribute name="ID" type="xs:integer" use="required" />
+	<xs:attribute name="StatisticQuery_ID" type="xs:integer" />
+	<xs:attribute name="Date" type="xs:string" />
+	<xs:attribute name="Period" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="StatisticQueryDatesListResponse">
+	<xs:sequence>
+	  <xs:element name="StatisticQueryDate" type="StatisticQueryDate" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="StatisticQueryDateDataReportResponse">
+	<xs:sequence>
+	  <xs:element name="StatisticQueryDateDataReport" minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+		  <xs:sequence>
+			<xs:element name="Body" type="Body" minOccurs="0" maxOccurs="unbounded"/>
+		  </xs:sequence>
+		  <xs:attribute name="StatisticQueryDate_ID" type="xs:integer" use="required" />
+		  <xs:attribute name="Date" type="xs:string" />
+		  <xs:attribute name="Code" type="xs:integer" />
+		  <xs:attribute name="Period" type="xs:string" use="required" />
+		</xs:complexType>
+	  </xs:element>
+	</xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Body">
+	<xs:sequence>
+	  <xs:element name="Line" minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+		  <xs:attribute name="Number" type="xs:string" />
+		  <xs:attribute name="Level" type="xs:string" />
+		  <xs:attribute name="Text" type="xs:string" use="required" />
+		  <xs:attribute name="Count" type="xs:string" use="required" />
+		</xs:complexType>
+	  </xs:element>
+	</xs:sequence>
+  </xs:complexType>
+
+
+
+  <xs:complexType name="ProductsComplaintResponse">
+	<xs:sequence>
+	  <xs:element name="ProductComplaintReponse" minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+		  <xs:attribute name="Product_id" type="xs:integer" />
+		  <xs:attribute name="ComplaintStatus_ID" type="xs:integer" />
+		  <xs:attribute name="ProductComplaintRequest_ID" type="xs:integer" />
+		  <xs:attribute name="Error" type="xs:string" />
+		  <xs:attribute name="Confirmation" type="xs:string" />
+		</xs:complexType>
+	  </xs:element>
+	</xs:sequence>
+  </xs:complexType>
+
+
+
+  <xs:complexType name="FeatureValuesVocabularyList">
+	<xs:sequence>
+	  <xs:element name="FeatureValuesVocabulary" minOccurs="0" maxOccurs="unbounded">
+		<xs:complexType>
+		  <xs:sequence>
+			<xs:element name="FeatureValue" type="FeatureValue" minOccurs="0" maxOccurs="unbounded" />
+		  </xs:sequence>
+		  <xs:attribute name="Key_Value" type="xs:string" use="required" />
+		  <xs:attribute name="Group_ID" type="xs:integer" use="required" />
+		</xs:complexType>
+	  </xs:element>
+	</xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="FeatureValue">
+	<xs:attribute name="langid" type="xs:integer" />
+	<xs:attribute name="ID" type="xs:integer" />
+  </xs:complexType>
+
+</xs:schema>

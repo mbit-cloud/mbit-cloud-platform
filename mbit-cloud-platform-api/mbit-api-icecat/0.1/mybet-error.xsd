@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:include schemaLocation="mybet-error-codes.xsd"/>
+
+  <xs:element name="error-response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="http-status">
+          <xs:annotation>
+            <xs:documentation> Depending on the specific error we send a http error code: 
+              200: Not an error 
+              2XX: Error depends on the business domain 
+              4XX: Error depends of wrong usage
+              of the API 5XX: 
+              Software Error on our side. 
+            </xs:documentation>
+          </xs:annotation>
+          <xs:simpleType>
+            <xs:restriction base="xs:int">
+              <xs:minInclusive value="100"/>
+              <xs:maxExclusive value="600"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element ref="code"/>
+        <xs:element name="detail-link" type="xs:anyURI">
+          <xs:annotation>
+            <xs:documentation> Link to error-detail for code, which contains suggested translations.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:element>
+
+        <xs:element name="message" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation> Message describing an error, to be shown to the user (in user's
+              language) or to the developer (in default language == EN) </xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="language" use="required" type="xs:string"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="caused-by-exception">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="message" type="xs:string"/>
+              <xs:element name="stacktrace" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="technical" use="required" type="xs:boolean">
+        <xs:annotation>
+          <xs:documentation> A technical error shall NOT be shown to the end user.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

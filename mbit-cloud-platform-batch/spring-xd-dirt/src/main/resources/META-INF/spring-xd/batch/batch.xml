@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 
+	<task:scheduler id="scheduler" pool-size="10" />
+
+	<bean id="distributedJobLocator"
+		class="org.springframework.xd.dirt.plugins.job.DistributedJobLocator">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+	-->
+	<beans profile="admin">
+		<import resource="classpath:/org/springframework/xd/batch/hsql-datasource.xml" />
+
+		<bean class="org.springframework.xd.dirt.plugins.job.DistributedJobService">
+			<constructor-arg ref="jobInstanceDao" />
+			<constructor-arg ref="jobExecutionDao" />
+			<constructor-arg ref="stepExecutionDao" />
+			<constructor-arg ref="jobRepository" />
+			<constructor-arg ref="jobLauncher" />
+		<!-- 	<constructor-arg ref="distributedJobLocator" /> -->
+			<constructor-arg>
+				<bean class="org.springframework.batch.core.repository.dao.JdbcExecutionContextDao">
+					<property name="jdbcTemplate" ref="jdbcTemplate" />
+					<property name="serializer">
+						<bean class="org.springframework.batch.core.repository.dao.XStreamExecutionContextStringSerializer" />
+					</property>
+				</bean>
+			</constructor-arg>
+		</bean> 
+
+		<bean id="jobInstanceDao"
+			class="org.springframework.batch.admin.service.JdbcSearchableJobInstanceDao">
+			<property name="jdbcTemplate" ref="jdbcTemplate" />
+		</bean>
+
+		<bean id="jobExecutionDao"
+			class="org.springframework.batch.admin.service.JdbcSearchableJobExecutionDao">
+			<property name="dataSource" ref="dataSource" />
+		</bean>
+
+		<bean id="stepExecutionDao"
+			class="org.springframework.batch.admin.service.JdbcSearchableStepExecutionDao">
+			<property name="dataSource" ref="dataSource" />
+		</bean>
+
+		<bean id="executionContextDao"
+			class="org.springframework.batch.core.repository.dao.JdbcExecutionContextDao">
+			<property name="jdbcTemplate" ref="jdbcTemplate" />
+			<property name="serializer">
+				<bean
+					class="org.springframework.batch.core.repository.dao.XStreamExecutionContextStringSerializer" />
+			</property>
+		</bean>
+	</beans>
+ 
+
+</beans>

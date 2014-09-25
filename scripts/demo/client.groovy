@@ -1,0 +1,3 @@
+@EnableEurekaClient
+public class Application {
+}

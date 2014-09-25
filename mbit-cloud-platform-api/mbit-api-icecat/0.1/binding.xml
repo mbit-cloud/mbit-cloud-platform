@@ -1,0 +1,89 @@
+<jaxb:bindings jaxb:version="2.1"
+               xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+    <jaxb:globalBindings generateElementProperty="false"/>
+
+    <jaxb:bindings schemaLocation="mybet-betting-program.xsd">
+     
+        <jaxb:bindings node="//xs:element[@name='sport']">
+            <jaxb:property name="sports"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='region']">
+            <jaxb:property name="regions"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='betting-program']//xs:element[@name='bettype']">
+            <jaxb:property name="bettypes"/>
+        </jaxb:bindings>
+        
+        <jaxb:bindings node="//xs:element[@name='outcome-type']">
+            <jaxb:property name="outcome-types"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='event-group']">
+            <jaxb:property name="event-groups"/>
+        </jaxb:bindings>
+
+        <jaxb:bindings node="//xs:element[@name='event']">
+            <jaxb:property name="events"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='outright']">
+            <jaxb:property name="outrights"/>
+        </jaxb:bindings>
+
+        <jaxb:bindings node="//xs:element[@name='participant']">
+            <jaxb:property name="participants"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='market']">
+            <jaxb:property name="markets"/>
+        </jaxb:bindings>
+
+        <jaxb:bindings node="//xs:element[@name='outcome']">
+            <jaxb:property name="outcomes"/>
+        </jaxb:bindings>
+
+        <jaxb:bindings node="//xs:element[@name='card']">
+            <jaxb:property name="cards"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='score']">
+            <jaxb:property name="scores"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="mybet-betting-program-translations.xsd">
+        <jaxb:bindings node="//xs:element[@name='translation']">
+            <jaxb:property name="translations"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='additional']">
+            <jaxb:property name="additionals"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="mybet-error-details.xsd">
+        <jaxb:bindings node="//xs:element[@name='error-detail']">
+            <jaxb:property name="error-details"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='message-template']">
+            <jaxb:property name="message-templates"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="mybet-authentication.xsd">
+        <jaxb:bindings node="//xs:element[@name='account']">
+            <jaxb:property name="accounts"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="mybet-combination-system.xsd">
+        <jaxb:bindings node="//xs:element[@name='combination-multi-tip']">
+            <jaxb:property name="combination-multi-tips"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='combination-tip']">
+            <jaxb:property name="combination-tips"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='participant']">
+            <jaxb:property name="participants"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+    
+</jaxb:bindings>

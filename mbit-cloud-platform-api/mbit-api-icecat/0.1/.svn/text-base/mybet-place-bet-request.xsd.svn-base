@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="place-bet-request">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="bets-to-place" type="place-bet" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="stake" type="xs:double" use="required">
+        <xs:annotation>
+          <xs:documentation> The fractional stake for each slip. If the user places a system with 12
+            slips and a stake of € 3.00 the overall stake of the system is € 36.00.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="currency" type="xs:token" fixed="EUR">
+        <xs:annotation>
+          <xs:documentation> ISO 4217 Currency Code. Currently only EUR is supported.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="system" type="xs:int">
+        <xs:annotation>
+          <xs:documentation> If not set, we suppose it is a normal combination bet.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="policy" type="PlaceBetPolicyEnum" default="default"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="place-bet">
+    <xs:attribute name="outcomeId" type="xs:long" use="required">
+      <xs:annotation>
+        <xs:documentation> The outcomeId as set in the mybet-betting-program. There is no need to
+          reflect the structure for multibet slips. The server takes care of multiple outcomes in
+          the same event. </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="odds" type="xs:double" use="required">
+      <xs:annotation>
+        <xs:documentation> The desired odds for this outcome. Whether or not the bet will be
+          accepted when live markets are part of the system, depends on the place bet policy.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="bank" type="xs:boolean" default="false">
+      <xs:annotation>
+        <xs:documentation> Set this to true if this outcome shall be part of every slip in the
+          system. For combi-bets and multi-bets this attribute has no effect. But all outcomes
+          in the same event in a system with multi-bets have to have the same bank value (all
+          true or all false).</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:simpleType name="PlaceBetPolicyEnum">
+    <xs:annotation>
+      <xs:documentation> The system will be accepted only if all odds have the same value after the
+        delay as in the time of bet placement. Although higher odds result in a higher profit for
+        the customer, they might indicate a change in the game, which makes the occurrence of this
+        outcome much more unlikely. Take the following situation as an example: User places a bet
+        with odds 1.4, during the delay the other team shoots a goal - due to this the odds for the
+        team increases to 2.4. If the user want to place this bet anyway, he has to accept this
+        odds change and has to place this bet another time *or* he chooses the accept_higher_odds
+        policy.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="default"/>
+      <xs:enumeration value="accept_higher_odds"/>
+      <xs:enumeration value="accept_all_odds"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

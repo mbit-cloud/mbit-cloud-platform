@@ -1,0 +1,27 @@
+package com.mybet.b2b.resources;
+
+import com.mybet.b2b.constants.Version;
+
+public final class Paths {
+
+    public static final String BETTING_PROGRAM_AND_VERSION = "/betting-program/" + Version.GENERAL;
+    public static final String MAIN = "/main";
+    public static final String MAIN_TRANSLATIONS = MAIN + "/translations";
+    public static final String MAIN_VOLATILE = MAIN + "/volatile";
+    public static final String LIVE = "/live";
+    public static final String LIVE_TRANSLATIONS = LIVE + "/translations";
+    public static final String LIVE_VOLATILE = LIVE + "/volatile";
+
+    public static final String ERROR = "/error/" + Version.GENERAL;
+    public static final String ERROR_DETAILS = "/details";
+    public static final String ERROR_DETAIL_CODE = "/detail/{error-code}";
+
+    public final static String AUTHENTICATION = "/authentication/" + Version.GENERAL;
+    public final static String AUTHENTICATION_LOGIN = "/login";
+    public final static String AUTHENTICATION_LOGOUT = "/logout";
+
+    public static final String USER_ACTIONS = "/user-actions/" + Version.GENERAL;
+    public static final String USER_ACTIONS_PLACE_BET = "/place-bet";
+    public static final String USER_ACTIONS_PLACED_BET_STATUS = "/place-bet/{systemId}";
+
+}

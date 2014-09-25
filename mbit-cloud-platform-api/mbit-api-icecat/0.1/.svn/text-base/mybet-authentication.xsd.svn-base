@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="login-response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="token">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:annotation>
+                <xs:documentation> Token which identifies the user in all forthcoming actions
+                  (deposit, bet placement etc.) The token format will not contain any characters
+                  which have to be encoded when used in URIs. </xs:documentation>
+              </xs:annotation>
+              <xs:pattern value="[0-9a-zA-Z]+"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element ref="account-balance"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="account-balance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="account" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:int">
+                <xs:annotation>
+                  <xs:documentation> Account balance value is specified in minor units of the
+                    currency. </xs:documentation>
+                </xs:annotation>
+                <xs:attribute name="type" use="required" type="AccountTypeEnum"/>
+                <xs:attribute name="currency" use="required" type="xs:token">
+                  <xs:annotation>
+                    <xs:documentation> ISO 4217 Currency Code. Currently we support only EUR for
+                      sportsbets and USD for poker. </xs:documentation>
+                  </xs:annotation>
+                </xs:attribute>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="AccountTypeEnum">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="sportsbets"/>
+      <xs:enumeration value="casino"/>
+      <xs:enumeration value="poker"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

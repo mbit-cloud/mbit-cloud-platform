@@ -1,0 +1,172 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>boostrack-cloud-platform-api</groupId>
+  <artifactId>mbit-platform-api-icecat</artifactId>
+   
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+ 
+  
+  <properties> 
+  	<api.schema.version>0.1</api.schema.version>
+  </properties>
+  
+  <dependencyManagement>
+
+        <dependencies>
+
+            <dependency>
+                <!-- Import dependency management from Spring Boot -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>1.1.6.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+  
+  <dependencies>
+  
+  
+  	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-batch</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		
+  
+  
+  
+ 		 <!-- resteasy core library -->
+		<!-- <dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxrs</artifactId>
+			<version>1.2.1.GA</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxrs</artifactId>
+			<version>2.3.4.Final</version>
+		</dependency>
+  		<!-- resteasy optional modules -->
+
+		<!-- JAXB support -->
+		<!-- <dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxb-provider</artifactId>
+			<version>1.2.1.GA</version>
+		</dependency> -->
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxb-provider</artifactId>
+			<version>2.3.4.Final</version>
+		</dependency>
+
+		
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>2.1.13</version>
+		</dependency>
+		</dependencies>
+		
+		 <build>
+    	
+    	<finalName>${project.artifactId}</finalName>
+<!-- 
+        <resources>
+            <resource>
+                <directory>src/main/webapp</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>xsd/**</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+            </resource>
+        </resources> -->
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+
+            <!-- JAXB xjc plugin that invokes the xjc compiler to compile XML schema into Java classes.-->
+	        <plugin>
+	            <groupId>org.codehaus.mojo</groupId>
+	            <artifactId>jaxb2-maven-plugin</artifactId>
+	            <version>1.3.1</version>
+	            <executions>
+                    <!--
+                            how to generate multiple times: http://jira.codehaus.org/browse/MJAXB-8
+                     -->
+                    <execution>
+                        <id>gigfork-code-generation</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <configuration>
+                            <!-- The schema directory or xsd files. -->
+                            <schemaDirectory>${basedir}/src/main/resources/xsd</schemaDirectory>
+
+                            <!-- bindingFiles are searched in ${basedir}/src/main/xjb/ - absolute file urls are not supported -->
+<!--                             <bindingFiles>../resources/xsd/${api.schema.version}/binding.xml</bindingFiles> -->
+                            <staleFile>${project.build.directory}/generated-sources/jaxb/stale/.ICECatstale</staleFile>
+                        </configuration>
+                    </execution>
+                </executions>
+
+                <configuration>
+                    <!-- The package in which the source files will be generated. -->
+                    <packageName>com.boostrack.mbit.api.icecat</packageName>
+                    <!-- The working directory to create the generated java source files. -->
+                    <outputDirectory>${project.build.directory}/generated-sources/jaxb</outputDirectory>
+                    <clearOutputDir>false</clearOutputDir>
+                </configuration>
+            </plugin>
+	
+        </plugins>
+    </build>
+		
+  
+  
+</project>

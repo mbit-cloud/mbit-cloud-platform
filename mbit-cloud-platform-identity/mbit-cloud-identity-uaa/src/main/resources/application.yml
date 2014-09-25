@@ -1,0 +1,103 @@
+# Configuration in this file is overridden by an external file
+# if any of these exist: 
+# [$UAA_CONFIG_URL, $UAA_CONFIG_PATH/uaa.yml, $CLOUDFOUNDRY_CONFIG_PATH/uaa.yml]
+
+#spring_profiles: mysql,default
+#spring_profiles: postgresql,default
+#spring_profiles: ldap,default,hsqldb
+#spring_profiles: saml
+#spring_profiles: keystone,default,hsqldb
+
+#database:
+#  driverClassName: org.postgresql.Driver
+#  url: jdbc:postgresql:uaa
+#  username: root
+#  password: changeme
+
+#note - this is not the place to set these properties
+# - they are just here for documentation purposes
+#database.driverClassName: org.postgresql.Driver
+#database.url: jdbc:postgresql:uaa
+#database.username: root
+#database.password: changeme
+
+#postgresql commands that were run were
+#create database uaa;
+#create user root with superuser password 'changeme';
+
+
+#database.driverClassName: org.mariadb.jdbc.Driver
+#database.url: jdbc:mysql://localhost:3306/uaa
+#database.username: root
+#database.password: changeme
+
+#mysql commands that were run
+#create database uaa;
+#SET PASSWORD FOR 'root'@'localhost' = PASSWORD('changeme');
+#SET PASSWORD FOR 'root'@'127.0.0.1' = PASSWORD('changeme');
+
+#authentication:
+#  policy:
+#    lockoutAfterFailures: 5
+#    countFailuresWithinSeconds: 3600
+#    lockoutPeriodSeconds: 600
+
+#keystone:
+#  authentication:
+#    url: http://localhost:35357/v2.0/tokens
+#    url: http://localhost:5000/v3/auth/tokens
+
+#ldap:
+#  profile:
+#    file: ldap/ldap-simple-bind.xml
+#  base:
+#    url: 'ldaps://192.168.3.39:10636/'
+#    userDnPattern: 'cn={0},ou=Users,dc=test,dc=com;cn={0},ou=OtherUsers,dc=example,dc=com'
+#  ssl:
+#    sslCertificate: ! '-----BEGIN CERTIFICATE-----
+#    MIIBfTCCAScCBgFDfaC2yzANBgkqhkiG9w0BAQUFADBCMQswCQYDVQQGEwJVUzEMMAoGA1UEChMD
+#    QVNGMRIwEAYDVQQLEwlEaXJlY3RvcnkxETAPBgNVBAMTCEFwYWNoZURTMB4XDTE0MDExMDE5Mjg0
+#    MVoXDTE1MDExMDE5Mjg0MVowTDELMAkGA1UEBhMCVVMxDDAKBgNVBAoTA0FTRjESMBAGA1UECxMJ
+#    RGlyZWN0b3J5MRswGQYDVQQDExJmaGFuaWstd29ya3N0YXRpb24wXDANBgkqhkiG9w0BAQEFAANL
+#    ADBIAkEAuA6Nmto6NFCCJ+CwsBnT2cvMxuYgf26iZ3ckIpLhs2V4ZJ4PFinR6JZUsVnRp0RbYoV5
+#    iW6F91XDTVtAMtDTJwIDAQABMA0GCSqGSIb3DQEBBQUAA0EATFGpEIprKYcnc+JuNcSQ8v2P2J7e
+#    lQ23NhTaljASF0g8AZ7SZEItU8JFYqf/KnNJ7FPwo4LbMbr7Zg6BRKBvnQ==
+#    -----END CERTIFICATE-----'
+#    sslCertificateAlias: ldaps
+
+#ldap:
+#  profile:
+#    file: ldap/ldap-search-and-bind.xml
+#  base:
+#    url: 'ldap://localhost:10389/'
+#    userDn: 'cn=admin,dc=test,dc=com'
+#    password: 'password'
+#    searchBase: ''
+#    searchFilter: 'cn={0}'
+
+#ldap:
+#  profile:
+#    file: ldap/ldap-search-and-compare.xml
+#  base:
+#    url: 'ldap://localhost:10389/'
+#    userDn: 'cn=admin,dc=test,dc=com'
+#    password: 'password'
+#    searchBase: '' 
+#    searchFilter: 'cn={0}'
+#    passwordAttributeName: userPassword
+#    passwordEncoder: org.cloudfoundry.identity.uaa.login.ldap.DynamicPasswordComparator
+#    localPasswordCompare: true
+
+oauth:
+  user:
+    authorities:
+      - openid
+      - scim.me
+      - cloud_controller.read
+      - cloud_controller.write
+      - cloud_controller_service_permissions.read
+      - password.write
+      - scim.userids
+      - uaa.user
+      - approvals.me
+      - oauth.approvals

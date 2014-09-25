@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:include schemaLocation="mybet-common.xsd"/>
+
+  <xs:complexType name="combination-system">
+
+    <xs:sequence>
+      <xs:element name="composition-info">
+        <xs:complexType>
+          <xs:attribute name="system" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation> The number of tips in each slip of the system. This attribute and
+                the next 4 are used to generate a general description for the combination system
+                like 4 Ways / System Bet: 2 out of 4 / One Bank [5 Bet Slips] &lt;numberOfWays&gt;
+                Ways / System Bet: &lt;system&gt; out of &lt;betCount&gt; / &lt;bankCount&gt; Bank
+                [&lt;slipCount&gt; Bet Slips] </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="betCount" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation> The overall number of all tips. </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="numberOfWays" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation> Number of different ways in a multi bet. A bet has more than one
+                way, if more than one outcome has been selected on a single event. </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="bankCount" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation> The number of events which are banked for this system.
+              </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="slipCount" type="xs:int" use="required">
+            <xs:annotation>
+              <xs:documentation> Number of slips in the system (2 out of 3 - the slip count is 3; 2
+                out of 4 - the slip count is 6). For regular systems it is the binomial coefficient
+                C(n,k) where n = bet count and k = system. </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+
+      <xs:element name="bet-info">
+        <xs:complexType>
+          <xs:attribute name="totalStake" type="xs:decimal" use="required">
+            <xs:annotation>
+              <xs:documentation> Overall stake the customer paid for all slips in the system.
+              </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="maximumProfit" type="xs:decimal" use="required">
+            <xs:annotation>
+              <xs:documentation> The maximum profit the customer gets if he will win all tips in all
+                slips of the current system. </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="currentProfit" type="xs:decimal" use="required">
+            <xs:annotation>
+              <xs:documentation> The sum of all slips the customer has already won.
+              </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="totalOdds" type="xs:decimal">
+            <xs:annotation>
+              <xs:documentation> The product of all tips in a combination. Only combi-bets have odds,
+                systems however have none, therefore this could be null. </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+
+          <xs:attribute name="placeDate" type="xs:dateTime" use="required"/>
+
+          <xs:attribute name="state" type="CombinationStateEnum" use="required">
+            <xs:annotation>
+              <xs:documentation> The state of a system is "won" if all containing slips are won.
+                Otherwise it is "open" if at least one slip is still open; "lost" if at least one
+                slip has lost; or "voided" if the whole system has been voided.
+              </xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+        </xs:complexType>
+      </xs:element>
+
+      <xs:element ref="combination-multi-tip" maxOccurs="unbounded"/>
+
+    </xs:sequence>
+
+    <xs:attribute name="systemId" type="xs:long" use="required"/>
+
+  </xs:complexType>
+
+  <xs:element name="combination-multi-tip">
+    <xs:annotation>
+      <xs:documentation> A multi tip holds all tips on the outcomes of a single event.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="bettype" type="bettype" minOccurs="1"/>
+        <xs:element name="event-group">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="eventGroupId" type="xs:long" use="required"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="participant" type="participant" minOccurs="0" maxOccurs="unbounded">
+          <xs:annotation>
+            <xs:documentation> The translation for the event of these tips can be determined by the
+              participants (with the ability to separate home and away) or directly with the
+              translation attribute </xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element ref="combination-tip" maxOccurs="unbounded"/>
+      </xs:sequence>
+
+      <xs:attribute name="translation" type="xs:string" use="required"/>
+
+      <xs:attribute name="eventGroupId" type="xs:long" use="required">
+        <xs:annotation>
+          <xs:documentation> The event group id of this multi tip as set in
+            the mybet-betting-program. </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="endOfGame" type="xs:dateTime" use="required">
+        <xs:annotation>
+          <xs:documentation> The end date and time of the event. </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+
+      <xs:attribute name="banked" type="xs:boolean" use="required"/>
+      <xs:attribute name="live" type="xs:boolean" use="required">
+        <xs:annotation>
+          <xs:documentation> Set to true if this tip was placed on a live market.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="combination-tip">
+    <xs:complexType>
+      <xs:attribute name="outcomeId" type="xs:long" use="required"/>
+      <xs:attribute name="translation" type="xs:string" use="required"/>
+      <xs:attribute name="odds" type="Odds" use="required"/>
+      <xs:attribute name="state" type="CombinationStateEnum" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="CombinationStateEnum">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="open"/>
+      <xs:enumeration value="won"/>
+      <xs:enumeration value="lost"/>
+      <xs:enumeration value="voided"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/stores
+
+logging:
+  level:
+    com.netflix.discovery: 'OFF'

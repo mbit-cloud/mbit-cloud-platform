@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="jobDefinitionRepository" class="org.springframework.xd.dirt.stream.zookeeper.ZooKeeperJobDefinitionRepository"/>	
+	<bean id="xdJobRepository" class="org.springframework.xd.dirt.stream.zookeeper.ZooKeeperJobRepository"/>
+	<bean id="streamDefinitionRepository" class="org.springframework.xd.dirt.stream.zookeeper.ZooKeeperStreamDefinitionRepository"/>
+	<bean id="streamRepository" class="org.springframework.xd.dirt.stream.zookeeper.ZooKeeperStreamRepository"/>
+	<bean id="containerRepository" class="org.springframework.xd.dirt.container.store.ZooKeeperContainerRepository"/>
+	<!-- <bean id="moduleMetadataRepository" class="org.springframework.xd.dirt.module.store.ZooKeeperModuleMetadataRepository" />
+	<bean id="moduleDependencyRepository" class="org.springframework.xd.dirt.module.store.ZooKeeperModuleDependencyRepository"/>
+	<bean id="moduleDefinitionRepository" class="org.springframework.xd.dirt.module.store.ZooKeeperModuleDefinitionRepository"/>
+	 -->
+	<!-- <bean id="moduleRegistry" class="org.springframework.xd.dirt.module.DelegatingModuleRegistry">
+		<constructor-arg>
+			<list>
+				<bean class="org.springframework.xd.dirt.module.ResourceModuleRegistry">
+					<constructor-arg value="${xd.module.home}/" />
+				</bean>
+				<bean class="org.springframework.xd.dirt.module.ResourceModuleRegistry">
+					<constructor-arg value="classpath:/modules/" />
+				</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+ -->
+<!-- The order of delegates matters here. The ModuleTypeConversionPluginMetadataResolver can override the default value of inputType if 
+explicitly set as a module option.
+ -->
+	<!-- <bean id="moduleOptionsMetadataResolver" class="org.springframework.xd.module.options.EnvironmentAwareModuleOptionsMetadataResolver">
+		<property name="delegate">
+			<bean class="org.springframework.xd.module.options.DelegatingModuleOptionsMetadataResolver">
+				<property name="delegates">
+					<list>
+						<bean class="org.springframework.xd.module.options.DefaultModuleOptionsMetadataResolver">
+							<property name="compositeResolver" ref="moduleOptionsMetadataResolver" />
+						</bean>
+						<bean class="org.springframework.xd.dirt.plugins.stream.ModuleTypeConversionPluginMetadataResolver" />
+						<bean class="org.springframework.xd.dirt.plugins.job.JobPluginMetadataResolver" />
+					</list>
+				</property>
+			</bean>
+		</property>
+	</bean>
+ -->
+</beans>

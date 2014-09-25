@@ -14,8 +14,12 @@
         <version>1.0.0.BUILD-SNAPSHOT</version>
     </parent>
     <modules>
-        <module>mbit-cloud-platform-core</module>
+        <module>mbit-cloud-platform-identity</module>
         <module>mbit-cloud-platform-web</module>
+        <module>mbit-cloud-platform-batch</module>
+        <module>mbit-cloud-platform-microservices</module>
+        <module>mbit-cloud-platform-nucleos</module>
+        <!-- <module>mbit-cloud-platform-api</module> -->
     </modules>
     <dependencies>
         <dependency>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:mybet="http://www.mybet.com/xmlns/error-codes" elementFormDefault="qualified">
+  <xs:element name="code" type="xs:token">
+    <xs:annotation>
+      <xs:documentation> The values of type ErrorCodeEnum. We're using strings, so it will be
+        possible to add new ErrorCodes without changes at client side. </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:simpleType name="ErrorCodeEnum">
+    <xs:restriction base="xs:token">
+
+      <xs:enumeration value="system" mybet:httpStatus="500">
+        <xs:annotation>
+          <xs:documentation> Wrapper over all unexpected exception; Nullpointer, IndexOutOfBounds
+            etc. (All typically thrown by mybet backend, Rest framework, Application Server, etc.)
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="system.masdown" mybet:httpStatus="503">
+        <xs:annotation>
+          <xs:documentation> The mybet backend (mAS) is down (thrown when a connection to the
+            backend is lost) </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="system.illegal.argument" mybet:httpStatus="400">
+        <xs:annotation>
+          <xs:documentation> General error if the API was used in a wrong way. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="system.entity.not.found" mybet:httpStatus="400">
+        <xs:annotation>
+          <xs:documentation> Thrown if the request to the REST service contains an identifier
+            (primary key) which is not existent. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+
+
+      <!-- login/logout -->
+      <xs:enumeration value="login.banned" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> User is banned from further logins by our customer care team.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="login.failed" mybet:httpStatus="202"/>
+      <xs:enumeration value="login.improper.licence" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> User is banned from further logins by our customer care team.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="login.new" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> User is created but not already activated. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="login.otherwise.logged.in" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> User is already logged in with another client which is forbidden by
+            legal regulations. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="login.password.wrong" mybet:httpStatus="202"/>
+      <xs:enumeration value="login.password.wrongblocked" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Wrong password entered too many times. The user is blocked now.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="login.password.reset.but.not.changed" mybet:httpStatus="202"/>
+
+      <xs:enumeration value="login.self.limited" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> User limited himself from play for a self chosen amount of time.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="login.terms.not.accepted" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> User did not accept terms of conditions yet. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+
+
+      <!-- place combination -->
+      <xs:enumeration value="placecombination.general.error" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Happens if the bet of an user could not be placed (general error for
+            placing a bet). </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="placecombination.exposure.limit.exceeded" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Happens if user do not have enough credit to place a bet.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.limit.exceeded" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Happens if user place a bet which exceeds at least one limit on a
+            league, event, market etc. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="placecombination.not.enough.bets" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> One of the markets in the betslip requires a minimum of placed bets.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.odds.too.high" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Happens if the user tries to placing a bet with odds which are higher
+            than the allowed by the system. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.player.protection.max.stake.exceeded"
+        mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Related to the limit-system. Happens if the user has imposed betting
+            limits to himself and he tries to place a stake higher than current available limit.
+          </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.stake.too.high" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Happens if the user tries to place a stake higher than permitted by the
+            system. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.user.has.no.wallet" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> User don't have an account. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.outcome.odds.notavailable" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> There are no odds available for an outcome. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.outcome.odds.changed" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Odds for outcome have changed. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.outcome.not.open" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> No bets on outcome allowed. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.market.notavailable" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Market not available for betting. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.event.bets.maximum" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Happens if the user has too many bets on event. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.market.bets.maximum" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Happens if the user has too many bets on market. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.slips.maximum" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Number of slips is limited. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.stake.too.low" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> There has to be a minimum stake. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.market.not.open" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Market is not open for betting. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="placecombination.market.started" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Happens if the slip contains an already started market which is not
+            open for live betting. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+
+      <xs:enumeration value="placecombination.market.started" mybet:httpStatus="202">
+        <xs:annotation>
+          <xs:documentation> Happens if the slip contains an already started market which is not
+            open for live betting. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

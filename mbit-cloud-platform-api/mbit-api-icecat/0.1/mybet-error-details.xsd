@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:include schemaLocation="mybet-error-codes.xsd"/>
+
+  <xs:element name="error-details">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="error-detail"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="error-detail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="http-status" type="xs:int"/>
+        <xs:element ref="code"/>
+        <xs:element name="description" type="xs:string"/>
+        <xs:element maxOccurs="unbounded" ref="message-template"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="message-template">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="language" use="required" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

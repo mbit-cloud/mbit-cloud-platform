@@ -1,0 +1,3 @@
+[submodule "mbit-cloud-platform"]
+	path = mbit-cloud-platform
+	url = git@github.com:mbit-cloud/mbit-cloud-platform.git

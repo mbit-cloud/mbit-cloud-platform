@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mybet/!svn/ver/40402/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1
+END
+mybet-combination-system.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/mybet/!svn/ver/40402/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-combination-system.xsd
+END
+mybet-error-codes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/mybet/!svn/ver/40375/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-error-codes.xsd
+END
+mybet-common.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/mybet/!svn/ver/40375/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-common.xsd
+END
+mybet-place-bet-response.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/mybet/!svn/ver/40378/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-place-bet-response.xsd
+END
+mybet-error.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/mybet/!svn/ver/40375/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-error.xsd
+END
+mybet-error-details.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/mybet/!svn/ver/40148/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-error-details.xsd
+END
+binding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/mybet/!svn/ver/40253/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/binding.xml
+END
+mybet-authentication.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/mybet/!svn/ver/40375/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-authentication.xsd
+END
+mybet-betting-program-translations.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/mybet/!svn/ver/40253/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-betting-program-translations.xsd
+END
+mybet-betting-program.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/mybet/!svn/ver/40358/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-betting-program.xsd
+END
+mybet-place-bet-request.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/mybet/!svn/ver/40378/mybet-labs/mybet-b2b-api/src/main/webapp/xsd/mybet-general/0.1/mybet-place-bet-request.xsd
+END

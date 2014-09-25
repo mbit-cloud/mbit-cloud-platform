@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="betting-program-translations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="translation" type="Translation">
+          <xs:annotation>
+            <xs:documentation> Generic translations for all elements in betting program which have
+              the attribute translationId, like team names, league names, etc. </xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="additional">
+          <xs:annotation>
+            <xs:documentation> Used for additional translations like SoccerPeriodEnum. The type
+              attribute describes exact type of additional translation. </xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="Translation">
+                <xs:attribute name="type" type="xs:token"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+      <xs:attribute name="language" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Translation">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="id" use="required" type="xs:token"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>

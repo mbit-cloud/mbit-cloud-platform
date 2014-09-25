@@ -1,0 +1,125 @@
+project:
+  artifactId: spring-io
+  name: spring-io
+  version: X.X.X.X
+  description: spring-io
+
+info:
+  build:
+    artifact: ${project.artifactId}
+    name: ${project.name}
+    description: ${project.description}
+    version: ${project.version}
+  spring:
+    profiles: ${spring.profiles.active:default}
+  app:
+    name: ${vcap.application.name:sagan}:${vcap.application.instance_index:*}
+    start: ${vcap.application.start:N/A}
+
+spring:
+  main:
+    sources: com.boostrack.platform.admin.SpringBatchAdmin
+  freemarker:
+    checkTemplateLocation: false
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+  jpa:
+    show_sql: false
+    hibernate:
+      naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
+      ddl_auto: none
+
+security:
+  basic:
+    enabled: false
+  require_ssl: false
+  ignored: 
+    - /bootstrap/**
+    - /bootstrap-datetimepicker/**
+    - /css/**
+    - /font-awesome/**
+    - /img/**
+    - /js/**
+    - /error
+    - /500
+    - /404
+    - /project_metadata/**
+  headers:
+    hsts: domain
+  user:
+    password: ${ADMIN_PASSWORD:}
+
+github:
+
+  # Credentials are based on users belonging to a particular GitHub team,
+  # by requesting the GitHub API (see github.client configuration keys).
+  # This key can be found in the list of teams in your organization
+  # See http://developer.github.com/v3/orgs/teams/#list-teams
+  team:
+    id: ${GITHUB_TEAM_ID:482984}
+
+  # GitHub OAuth application credentials for use when logging into administrative
+  # console at /admin. Default 'id' and 'secret' values apply only when running
+  # locally, i.e. at http://localhost:8080. Production values must be overridden
+  # using GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET, respectively.
+  client:
+    id: ${GITHUB_CLIENT_ID:fb06c006c2ed62fe9e8b}
+    secret: ${GITHUB_CLIENT_SECRET:164264e3f6d70c7c21713b7fa64225cb8d6107b2}
+
+  # This optional property may be assigned using a "personal access token" created
+  # at https://github.com/settings/applications. It is used for accessing GitHub's
+  # API, even for operations that do not require authorization (e.g. Getting Started
+  # Guide repositories). This is done in order to work against higher rate limits
+  # (5000req/hour vs. the default 60req/hour without a token). When running the app
+  # locally, this lower default is fine. When running the app in production, the
+  # token is a must. See http://developer.github.com/v3/#rate-limiting.
+  access:
+    token: ${GITHUB_ACCESS_TOKEN:}
+
+  # Coordinates for finding guides against the GitHub API
+  guides:
+    owner:
+      name: ${GITHUB_GUIDES_OWNER_NAME:spring-guides} # any GitHub org or user having publicly-readable guide repos
+      type: ${GITHUB_GUIDES_OWNER_TYPE:orgs}          # 'users' is the other possible value
+
+elasticsearch:
+  client:
+    endpoint: ${ELASTICSEARCH_ENDPOINT:http://localhost:9200}
+    index: ${ELASTICSEARCH_INDEX:sagan}
+
+server:
+    tomcat:
+        # Write access log to target/logs/access_log.YYYY-MM-DD.log
+        # See http://tomcat.apache.org/tomcat-7.0-doc/api/org/apache/catalina/valves/AccessLogValve.html
+        accessLogEnabled: true
+        accessLogPattern: '%h %l %u %t "%r" %s %b %{Host}i %{Location}o'
+        baseDir: ''
+        backgroundProcessorDelay: 1
+
+---
+
+spring:
+  profiles: default,staging,production
+security:
+  require_ssl: true
+
+---
+
+spring:
+  profiles: default
+cache:
+  timetolive: 0
+disqus_shortname: ${DISQUS_SHORTNAME:spring-io-localhost}
+
+---
+
+spring:
+  profiles: staging
+disqus_shortname: ${DISQUS_SHORTNAME:spring-io-staging}
+
+---
+
+spring:
+  profiles: production
+disqus_shortname: ${DISQUS_SHORTNAME:spring-io}

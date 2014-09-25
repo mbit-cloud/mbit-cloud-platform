@@ -1,0 +1,2712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ICECAT-interface SYSTEM "http://data.icecat.biz/dtd/ICECAT-interface_response.dtd">
+<!-- source: Icecat.biz 2014 -->
+<ICECAT-interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://data.icecat.biz/xsd/ICECAT-interface_response.xsd">
+   <Product Code="1" HighPic="http://images.icecat.biz/img/norm/high/17496962-6294.jpg" HighPicHeight="356" HighPicSize="61382" HighPicWidth="474" ID="17649936" LowPic="http://images.icecat.biz/img/norm/low/17496962-6294.jpg" LowPicHeight="150" LowPicSize="14812" LowPicWidth="200" Name="4740s" Pic500x500="" Pic500x500Height="0" Pic500x500Size="0" Pic500x500Width="0" Prod_id="H5K34EA" Quality="ICECAT" ReleaseDate="2013-01-25" ThumbPic="http://images.icecat.biz/thumbs/17496962.jpg" ThumbPicSize="3961" Title="HP ProBook 4740s">
+    <Category ID="151">
+    <Name ID="420791" Value="notebooks/portáteis" langid="11"/>
+
+    </Category>
+   	<CategoryFeatureGroup ID="269" No="-100">
+		<FeatureGroup ID="0">
+			<Name ID="422703" Value="Detalhes técnicos" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="35" No="200">
+		<FeatureGroup ID="1">
+			<Name ID="422676" Value="Processador" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="107" No="180">
+		<FeatureGroup ID="2">
+			<Name ID="422677" Value="Unidade de disco" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="106" No="190">
+		<FeatureGroup ID="3">
+			<Name ID="422678" Value="Memória" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="32" No="150">
+		<FeatureGroup ID="4">
+			<Name ID="422679" Value="Leitor óptico" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="33" No="170">
+		<FeatureGroup ID="5">
+			<Name ID="422680" Value="Monitores" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="110" No="140">
+		<FeatureGroup ID="9">
+			<Name ID="422684" Value="Áudio" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="36" No="110">
+		<FeatureGroup ID="12">
+			<Name ID="422686" Value="Conectividade" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="108" No="30">
+		<FeatureGroup ID="14">
+			<Name ID="422688" Value="Pesos e dimensões" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="109" No="55">
+		<FeatureGroup ID="27">
+			<Name ID="422700" Value="Gestão de energia" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="1403" No="5">
+		<FeatureGroup ID="28">
+			<Name ID="422701" Value="Condições ambientais" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="762" No="90">
+		<FeatureGroup ID="31">
+			<Name ID="422704" Value="Teclado" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="1711" No="120">
+		<FeatureGroup ID="35">
+			<Name ID="422708" Value="Rede" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="2684" No="160">
+		<FeatureGroup ID="45">
+			<Name ID="422718" Value="Vídeo" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="4124" No="178">
+		<FeatureGroup ID="47">
+			<Name ID="422720" Value="Mídia de armazenamento" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="6416" No="10">
+		<FeatureGroup ID="67">
+			<Name ID="422737" Value="Embalagem" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="2686" No="50">
+		<FeatureGroup ID="75">
+			<Name ID="422745" Value="Segurança" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="2687" No="1">
+		<FeatureGroup ID="76">
+			<Name ID="422746" Value="Aprovação regulamentar" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="2933" No="80">
+		<FeatureGroup ID="90">
+			<Name ID="422758" Value="Sistema operacional/software" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="3024" No="130">
+		<FeatureGroup ID="95">
+			<Name ID="422763" Value="Câmera" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="7946" No="60">
+		<FeatureGroup ID="143">
+			<Name ID="1364132" Value="Bateria" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="6417" No="-100">
+		<FeatureGroup ID="146">
+			<Name ID="1364135" Value="Outras características" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="10674" No="1000">
+		<FeatureGroup ID="148">
+			<Name ID="630467" Value="Design" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="8602" No="160">
+		<FeatureGroup ID="163">
+			<Name ID="764423" Value="Gráficos" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="10385" No="65">
+		<FeatureGroup ID="183">
+			<Name ID="1210981" Value="Características especiais de processadores" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+	<CategoryFeatureGroup ID="10675" No="100">
+		<FeatureGroup ID="184">
+			<Name ID="1364165" Value="Desempenho" langid="11"/>
+		</FeatureGroup>
+	</CategoryFeatureGroup>
+
+     <EANCode EAN="0887758069929"/>
+     <EANCode EAN="0887758496046"/>
+   <FeatureLogo ID="1" Feature_ID="2183" Value="Y" LogoPic="http://images.icecat.biz/img/feature_logo/1-3750.png" Width="200" Height="200" Size="27992">
+    </FeatureLogo>
+<FeatureLogo ID="4" Feature_ID="838" Value="Y" LogoPic="http://images.icecat.biz/img/feature_logo/4-8210.png" Width="195" Height="200" Size="35338">
+    </FeatureLogo>
+
+   <ReasonsToBuy/>
+   <ProductBundled/>
+   <ProductDescription/>
+   <ProductFamily ID="63498" LowPic="" ThumbPic=""><Name ID="810644" Value="ProBook" langid="1"/><Series ID="2145"><Name ID="991508" Value="4740s" langid="1"/></Series></ProductFamily>
+   
+	<ProductFeature Localized="0" ID="136773441" Local_ID="0" Value="Notebook" CategoryFeature_ID="101037" CategoryFeatureGroup_ID="10674" No="10100500" Presentation_Value="Notebook" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="14052">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1127674" langid="11" Value="Tipo de produto"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773443" Local_ID="0" Value="Clamshell" CategoryFeature_ID="4692" CategoryFeatureGroup_ID="10674" No="10100050" Presentation_Value="Concha" Translated="1" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="771">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427742" langid="11" Value="Estrutura"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773371" Local_ID="0" Value="2.6" CategoryFeature_ID="73715" CategoryFeatureGroup_ID="35" No="10100050" Presentation_Value="2,6 GHz" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="11379">
+	    <Measure ID="37" Sign="">
+	      <Signs><Sign ID="11345" langid="11"><![CDATA[GHz]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="1036534" langid="11" Value="Velocidade da CPU"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773372" Local_ID="0" Value="Intel Core i5" CategoryFeature_ID="11560" CategoryFeatureGroup_ID="35" No="10100048" Presentation_Value="Intel Core i5" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="2196">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427975" langid="11" Value="Família de processador"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773373" Local_ID="0" Value="i5-3230M" CategoryFeature_ID="49" CategoryFeatureGroup_ID="35" No="100046" Presentation_Value="i5-3230M" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="47">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427666" langid="11" Value="Modelo de processador"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773374" Local_ID="0" Value="3.2" CategoryFeature_ID="56907" CategoryFeatureGroup_ID="35" No="100044" Presentation_Value="3,2 GHz" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="7978">
+	    <Measure ID="37" Sign="">
+	      <Signs><Sign ID="11345" langid="11"><![CDATA[GHz]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="910730" langid="11" Value="Frequência de turbo (máx)"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773375" Local_ID="0" Value="2" CategoryFeature_ID="57809" CategoryFeatureGroup_ID="35" No="100042" Presentation_Value="2" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="6089">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="909930" langid="11" Value="Número de cores de processador"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773376" Local_ID="0" Value="4" CategoryFeature_ID="71259" CategoryFeatureGroup_ID="35" No="100041" Presentation_Value="4" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="7337">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="910314" langid="11" Value="Número de threads do processador"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773377" Local_ID="0" Value="5" CategoryFeature_ID="39188" CategoryFeatureGroup_ID="35" No="100040" Presentation_Value="5 GT/s" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="6975">
+	    <Measure ID="176" Sign="">
+	      <Signs><Sign ID="11468" langid="11"><![CDATA[GT/s]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="1360042" langid="11" Value="Taxas do barramento de sistema"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="157172134" Local_ID="0" Value="3" CategoryFeature_ID="95853" CategoryFeatureGroup_ID="35" No="100037" Presentation_Value="3 MB" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="10041">
+	    <Measure ID="19" Sign="">
+	      <Signs><Sign ID="11330" langid="11"><![CDATA[MB]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="1360324" langid="11" Value="Cache do processador"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="156975504" Local_ID="0" Value="L3" CategoryFeature_ID="96610" CategoryFeatureGroup_ID="35" No="100036" Presentation_Value="L3" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="17059">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1362514" langid="11" Value="Nível da cache do processador"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773379" Local_ID="0" Value="Intel HM76 Express" CategoryFeature_ID="47168" CategoryFeatureGroup_ID="35" No="100030" Presentation_Value="Intel HM76 Express" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="436">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="424280" langid="11" Value="Motherboard chipset"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773380" Local_ID="0" Value="Intel" CategoryFeature_ID="2721" CategoryFeatureGroup_ID="35" No="100000" Presentation_Value="Intel" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1013">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427834" langid="11" Value="Fabricante do processador"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773381" Local_ID="0" Value="4" CategoryFeature_ID="73753" CategoryFeatureGroup_ID="106" No="10100050" Presentation_Value="4 GB" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="11381">
+	    <Measure ID="20" Sign="">
+	      <Signs><Sign ID="11331" langid="11"><![CDATA[GB]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="1036626" langid="11" Value="Capacidade da memória incorporada"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773382" Local_ID="0" Value="DDR3-SDRAM" CategoryFeature_ID="12693" CategoryFeatureGroup_ID="106" No="10100048" Presentation_Value="DDR3-SDRAM" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="427">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427693" langid="11" Value="Tipo de memória incorporada"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773383" Local_ID="0" Value="1333" CategoryFeature_ID="25759" CategoryFeatureGroup_ID="106" No="100046" Presentation_Value="1333 MHz" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2900">
+	    <Measure ID="18" Sign="">
+	      <Signs><Sign ID="11329" langid="11"><![CDATA[MHz]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="428074" langid="11" Value="Velocidade  do clock"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773384" Local_ID="0" Value="2x SO-DIMM" CategoryFeature_ID="2549" CategoryFeatureGroup_ID="106" No="100038" Presentation_Value="2x SO-DIMM" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="672">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427729" langid="11" Value="Slots de memória"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773385" Local_ID="0" Value="8" CategoryFeature_ID="10354" CategoryFeatureGroup_ID="106" No="100032" Presentation_Value="8 GB" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1452">
+	    <Measure ID="20" Sign="">
+	      <Signs><Sign ID="11331" langid="11"><![CDATA[GB]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427872" langid="11" Value="Memória máxima"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773386" Local_ID="0" Value="750" CategoryFeature_ID="30921" CategoryFeatureGroup_ID="4124" No="10100050" Presentation_Value="750 GB" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="3318">
+	    <Measure ID="20" Sign="">
+	      <Signs><Sign ID="11331" langid="11"><![CDATA[GB]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="428100" langid="11" Value="Capacidade total de armazenamento"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773387" Local_ID="0" Value="HDD" CategoryFeature_ID="74320" CategoryFeatureGroup_ID="4124" No="10100048" Presentation_Value="HDD" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="11441">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1361201" langid="11" Value="Armazenamento"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773388" Local_ID="0" Value="1" CategoryFeature_ID="30920" CategoryFeatureGroup_ID="4124" No="100040" Presentation_Value="1" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="3319">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428101" langid="11" Value="Número de hard drives instaladas"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773389" Local_ID="0" Value="750" CategoryFeature_ID="33265" CategoryFeatureGroup_ID="4124" No="100038" Presentation_Value="750 GB" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="7">
+	    <Measure ID="20" Sign="">
+	      <Signs><Sign ID="11331" langid="11"><![CDATA[GB]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427652" langid="11" Value="Capacidade do Disco Rígido"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773390" Local_ID="0" Value="Serial ATA" CategoryFeature_ID="2705" CategoryFeatureGroup_ID="4124" No="100036" Presentation_Value="SATA" Translated="1" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="982">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427811" langid="11" Value="Interface do host"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773391" Local_ID="0" Value="5400" CategoryFeature_ID="1198" CategoryFeatureGroup_ID="4124" No="100034" Presentation_Value="5400 RPM" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="430">
+	    <Measure ID="28" Sign="">
+	      <Signs><Sign ID="11337" langid="11"><![CDATA[RPM]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427694" langid="11" Value="Velocidade rotacional"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773392" Local_ID="0" Value="Y" CategoryFeature_ID="19149" CategoryFeatureGroup_ID="4124" No="100001" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="3374">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428104" langid="11" Value="Leitor de cartões integrado"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773393" Local_ID="0" Value="17.3" CategoryFeature_ID="2787" CategoryFeatureGroup_ID="33" No="10100050" Presentation_Value="43,94 cm (17.3&quot;)" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="944">
+	    <Measure ID="16" Sign="">
+	      <Signs><Sign ID="3155" langid="11"><![CDATA["]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427785" langid="11" Value="Tamanho do ecrã na diagonal  (pol.)"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773394" Local_ID="0" Value="1600 x 900" CategoryFeature_ID="9350" CategoryFeatureGroup_ID="33" No="10100048" Presentation_Value="1600 x 900 pixels" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="1585">
+	    <Measure ID="39" Sign="">
+	      <Signs><Sign ID="11347" langid="11"><![CDATA[pixels]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427992" langid="11" Value="Resolução"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773397" Local_ID="0" Value="N" CategoryFeature_ID="36303" CategoryFeatureGroup_ID="33" No="10099990" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="4963">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428117" langid="11" Value="Ecrã táctil"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773395" Local_ID="0" Value="Y" CategoryFeature_ID="36493" CategoryFeatureGroup_ID="33" No="100040" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="6784">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428153" langid="11" Value="LED backlight"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773396" Local_ID="0" Value="16:9" CategoryFeature_ID="16353" CategoryFeatureGroup_ID="33" No="100034" Presentation_Value="16:9" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="39">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427663" langid="11" Value="Rácio de aspecto"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773398" Local_ID="0" Value="N" CategoryFeature_ID="53952" CategoryFeatureGroup_ID="8602" No="100044" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9016">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1360243" langid="11" Value="Modelo da placa gráfica on-board"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773399" Local_ID="0" Value="AMD Radeon HD 7650M" CategoryFeature_ID="53948" CategoryFeatureGroup_ID="8602" No="100038" Presentation_Value="AMD Radeon HD 7650M" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9018">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1360245" langid="11" Value="Modelo da placa gráfica discreto"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773400" Local_ID="0" Value="2048" CategoryFeature_ID="53949" CategoryFeatureGroup_ID="8602" No="100036" Presentation_Value="2048 MB" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9019">
+	    <Measure ID="19" Sign="">
+	      <Signs><Sign ID="11330" langid="11"><![CDATA[MB]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="911474" langid="11" Value="Memória gráfica discreta"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773401" Local_ID="0" Value="GDDR3" CategoryFeature_ID="53951" CategoryFeatureGroup_ID="8602" No="100034" Presentation_Value="GDDR3" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9020">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="911475" langid="11" Value="Tipo de memória gráfica discreta"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773402" Local_ID="0" Value="DVD Super Multi DL" CategoryFeature_ID="2828" CategoryFeatureGroup_ID="32" No="10100100" Presentation_Value="DVD Super Multi DL" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="1120">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427914" langid="11" Value="Unidades ópticas"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773404" Local_ID="0" Value="SRS Premium Sound PRO" CategoryFeature_ID="1195" CategoryFeatureGroup_ID="110" No="100050" Presentation_Value="SRS Premium Sound PRO" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="442">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427702" langid="11" Value="Sistema de som"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773405" Local_ID="0" Value="Y" CategoryFeature_ID="57280" CategoryFeatureGroup_ID="110" No="100038" Presentation_Value="Y" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2433">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="424484" langid="11" Value="Altifalantes incorporados"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773406" Local_ID="0" Value="2" CategoryFeature_ID="12917" CategoryFeatureGroup_ID="110" No="100036" Presentation_Value="2" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1851">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427726" langid="11" Value="Número de altifalantes incorporados"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773407" Local_ID="0" Value="Y" CategoryFeature_ID="2731" CategoryFeatureGroup_ID="110" No="100001" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1025">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427841" langid="11" Value="Microfone incorporado"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773409" Local_ID="0" Value="1.3" CategoryFeature_ID="91103" CategoryFeatureGroup_ID="3024" No="100022" Presentation_Value="1,3 MP" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="12437">
+	    <Measure ID="165" Sign="">
+	      <Signs><Sign ID="11460" langid="11"><![CDATA[MP]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="1361445" langid="11" Value="Resolução da câmara frontal (numérico)"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773414" Local_ID="0" Value="Y" CategoryFeature_ID="18579" CategoryFeatureGroup_ID="1711" No="10100043" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="2183">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427815" langid="11" Value="Bluetooth"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773415" Local_ID="0" Value="N" CategoryFeature_ID="34457" CategoryFeatureGroup_ID="1711" No="10100040" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="6644">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="910035" langid="11" Value="3G"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773410" Local_ID="0" Value="Y" CategoryFeature_ID="41678" CategoryFeatureGroup_ID="1711" No="100050" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="3239">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="423792" langid="11" Value="Wi-Fi"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773411" Local_ID="0" Value="802.11b, 802.11g, 802.11n" CategoryFeature_ID="1193" CategoryFeatureGroup_ID="1711" No="100049" Presentation_Value="802.11b, 802.11g, 802.11n" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="432">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427696" langid="11" Value="Padrões Wi-Fi"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773412" Local_ID="0" Value="Y" CategoryFeature_ID="43547" CategoryFeatureGroup_ID="1711" No="100046" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1347">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="424401" langid="11" Value="Ethernet LAN"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773413" Local_ID="0" Value="10, 100, 1000" CategoryFeature_ID="57701" CategoryFeatureGroup_ID="1711" No="100045" Presentation_Value="10, 100, 1000 Mbit/s" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="3768">
+	    <Measure ID="23" Sign="">
+	      <Signs><Sign ID="11334" langid="11"><![CDATA[Mbit/s]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="909816" langid="11" Value="Ethernet LAN taxa de transferência de dados"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773416" Local_ID="0" Value="2" CategoryFeature_ID="12819" CategoryFeatureGroup_ID="36" No="100100" Presentation_Value="2" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2308">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428050" langid="11" Value="Quantidade de portas USB 2.0"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773417" Local_ID="0" Value="2" CategoryFeature_ID="39265" CategoryFeatureGroup_ID="36" No="100098" Presentation_Value="2" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="6768">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428151" langid="11" Value="Quantidade de portas USB 3.0"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773421" Local_ID="0" Value="1" CategoryFeature_ID="12844" CategoryFeatureGroup_ID="36" No="100080" Presentation_Value="1" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2323">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428063" langid="11" Value="Quantidade de portas VGA"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773422" Local_ID="0" Value="1" CategoryFeature_ID="26456" CategoryFeatureGroup_ID="36" No="100078" Presentation_Value="1" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="3566">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427749" langid="11" Value="Quantidade de portas HDMI"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773424" Local_ID="0" Value="N" CategoryFeature_ID="12837" CategoryFeatureGroup_ID="36" No="100074" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2319">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428059" langid="11" Value="Porta DVI"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773425" Local_ID="0" Value="1" CategoryFeature_ID="12827" CategoryFeatureGroup_ID="36" No="100072" Presentation_Value="1" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2312">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="909760" langid="11" Value="Quantidade de portas Ethernet LAN (RJ-45)"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773428" Local_ID="0" Value="1" CategoryFeature_ID="12828" CategoryFeatureGroup_ID="36" No="100064" Presentation_Value="1" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2313">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1360013" langid="11" Value="Saída de auscultadores"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773429" Local_ID="0" Value="Y" CategoryFeature_ID="12829" CategoryFeatureGroup_ID="36" No="100062" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2314">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1360014" langid="11" Value="Entrada de microfone"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773430" Local_ID="0" Value="N" CategoryFeature_ID="12830" CategoryFeatureGroup_ID="36" No="100060" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2315">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428055" langid="11" Value="Porta de saída S/PDIF"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773431" Local_ID="0" Value="Y" CategoryFeature_ID="12831" CategoryFeatureGroup_ID="36" No="100050" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2316">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428056" langid="11" Value="Cabo DC-in"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773432" Local_ID="0" Value="N" CategoryFeature_ID="20422" CategoryFeatureGroup_ID="36" No="100030" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="3548">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427942" langid="11" Value="Slot ExpressCard"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773434" Local_ID="0" Value="N" CategoryFeature_ID="12846" CategoryFeatureGroup_ID="36" No="100028" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2321">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428061" langid="11" Value="Tipo de slot CardBus PCMCIA"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773435" Local_ID="0" Value="N" CategoryFeature_ID="12840" CategoryFeatureGroup_ID="36" No="100027" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="2322">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428062" langid="11" Value="Slot SmartCard"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773436" Local_ID="0" Value="Touchpad" CategoryFeature_ID="1201" CategoryFeatureGroup_ID="762" No="100100" Presentation_Value="Touchpad" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="440">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427701" langid="11" Value="Dispositivo apontador"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773437" Local_ID="0" Value="QWERTY" CategoryFeature_ID="16761" CategoryFeatureGroup_ID="762" No="100080" Presentation_Value="QWERTY" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1410">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427972" langid="11" Value="Layout do teclado"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773438" Local_ID="0" Value="Y" CategoryFeature_ID="2718" CategoryFeatureGroup_ID="762" No="100076" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1006">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="909721" langid="11" Value="Teclado numérico"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773439" Local_ID="0" Value="Windows 8" CategoryFeature_ID="12350" CategoryFeatureGroup_ID="2933" No="10100100" Presentation_Value="Windows 8" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="3233">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="428098" langid="11" Value="Sistema operativo instalado"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773440" Local_ID="0" Value="64-bit" CategoryFeature_ID="45085" CategoryFeatureGroup_ID="2933" No="100090" Presentation_Value="64-bit" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="7563">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="910446" langid="11" Value="Arquitectura de sistema operacional"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="143173707" Local_ID="0" Value="Y" CategoryFeature_ID="74045" CategoryFeatureGroup_ID="10385" No="100010" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="10111">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="874760" langid="11" Value="Intel Wireless Display (WiDi) Technology"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773459" Local_ID="0" Value="Y" CategoryFeature_ID="56925" CategoryFeatureGroup_ID="10385" No="100000" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9664">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1360294" langid="11" Value="Tecnologia Intel My WiFi"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773460" Local_ID="0" Value="Y" CategoryFeature_ID="56927" CategoryFeatureGroup_ID="10385" No="100000" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9666">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1369359" langid="11" Value="Tecnologia Intel antirroubo "/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="143224793" Local_ID="0" Value="Y" CategoryFeature_ID="56930" CategoryFeatureGroup_ID="10385" No="100000" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9665">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1369358" langid="11" Value="Tecnologia Intel de proteção  de identidade"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773461" Local_ID="0" Value="N" CategoryFeature_ID="56931" CategoryFeatureGroup_ID="10385" No="100000" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9670">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1360300" langid="11" Value="Tecnologia Intel vPro"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773462" Local_ID="0" Value="Intel Clear Video HD, Intel Insider, Intel InTru 3D, Intel Quick Sync Video" CategoryFeature_ID="56932" CategoryFeatureGroup_ID="10385" No="100000" Presentation_Value="Intel Clear Video HD, Intel Insider, Intel InTru 3D, Intel Quick Sync Video" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9671">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1360301" langid="11" Value="Tecnologias visuais Intel"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773463" Local_ID="0" Value="Y" CategoryFeature_ID="56933" CategoryFeatureGroup_ID="10385" No="100000" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9672">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1360302" langid="11" Value="Tecnologia Intel Hyper-Threading"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773464" Local_ID="0" Value="2.0" CategoryFeature_ID="57383" CategoryFeatureGroup_ID="10385" No="100000" Presentation_Value="2.0" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="9733">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="811402" langid="11" Value="Intel Turbo Boost Technology"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="143182577" Local_ID="0" Value="N" CategoryFeature_ID="79279" CategoryFeatureGroup_ID="10385" No="100000" Presentation_Value="Não" Translated="1" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="11779">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="1361329" langid="11" Value="Intel Small Business Advantage (SBA)"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773444" Local_ID="0" Value="Lithium-Ion (Li-Ion)" CategoryFeature_ID="1187" CategoryFeatureGroup_ID="7946" No="100100" Presentation_Value="Ião-lítio" Translated="1" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="434">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427697" langid="11" Value="Tecnologia da bateria"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773445" Local_ID="0" Value="8" CategoryFeature_ID="16197" CategoryFeatureGroup_ID="7946" No="100098" Presentation_Value="8" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1226">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427941" langid="11" Value="Número de células de bateria"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773446" Local_ID="0" Value="10.5" CategoryFeature_ID="11249" CategoryFeatureGroup_ID="7946" No="100096" Presentation_Value="10,5h" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1721">
+	    <Measure ID="46" Sign="">
+	      <Signs><Sign ID="1577" langid="11"><![CDATA[h]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="428007" langid="11" Value="Tempo de funcionamento a pilhas"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773447" Local_ID="0" Value="73" CategoryFeature_ID="50479" CategoryFeatureGroup_ID="7946" No="100090" Presentation_Value="73 Wh" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="8519">
+	    <Measure ID="211" Sign="">
+	      <Signs><Sign ID="11501" langid="11"><![CDATA[Wh]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="911137" langid="11" Value="Capacidade de bateria"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773448" Local_ID="0" Value="90" CategoryFeature_ID="2652" CategoryFeatureGroup_ID="109" No="100055" Presentation_Value="90W" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="906">
+	    <Measure ID="44" Sign="">
+	      <Signs><Sign ID="11351" langid="11"><![CDATA[W]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427755" langid="11" Value="Dissipação de energia do adaptador AC"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773449" Local_ID="0" Value="Y" CategoryFeature_ID="16306" CategoryFeatureGroup_ID="2686" No="100050" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1352">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427964" langid="11" Value="Slot para cabo de segurança"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773450" Local_ID="0" Value="2920" CategoryFeature_ID="4922" CategoryFeatureGroup_ID="108" No="10100000" Presentation_Value="2,92 kg" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="94">
+	    <Measure ID="38" Sign="">
+	      <Signs><Sign ID="11346" langid="11"><![CDATA[g]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427684" langid="11" Value="Peso do produto"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773451" Local_ID="0" Value="413" CategoryFeature_ID="6240" CategoryFeatureGroup_ID="108" No="100020" Presentation_Value="41,3 cm" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1649">
+	    <Measure ID="24" Sign="">
+	      <Signs><Sign ID="11335" langid="11"><![CDATA[mm]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427997" langid="11" Value="Largura do produto"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773452" Local_ID="0" Value="279" CategoryFeature_ID="6237" CategoryFeatureGroup_ID="108" No="100019" Presentation_Value="27,9 cm" Translated="0" Mandatory="1" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1650">
+	    <Measure ID="24" Sign="">
+	      <Signs><Sign ID="11335" langid="11"><![CDATA[mm]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427998" langid="11" Value="Profundidade da Unidade"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773453" Local_ID="0" Value="29" CategoryFeature_ID="6239" CategoryFeatureGroup_ID="108" No="100018" Presentation_Value="2,9 cm" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1464">
+	    <Measure ID="24" Sign="">
+	      <Signs><Sign ID="11335" langid="11"><![CDATA[mm]]></Sign></Signs>
+	    </Measure>
+	    <Name ID="427980" langid="11" Value="Altura da Unidade"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773454" Local_ID="0" Value="AC" CategoryFeature_ID="57719" CategoryFeatureGroup_ID="6416" No="100000" Presentation_Value="CA" Translated="1" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1830">
+	    <Measure ID="29" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="424302" langid="11" Value="Cabos"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773455" Local_ID="0" Value="Y" CategoryFeature_ID="57811" CategoryFeatureGroup_ID="6416" No="100000" Presentation_Value="Y" Translated="0" Mandatory="0" Searchable="0">
+      <LocalValue Value=""/>
+	  <Feature ID="1230">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="424355" langid="11" Value="Adaptador CA/CC"/>
+	  </Feature>
+	</ProductFeature>
+
+	<ProductFeature Localized="0" ID="136773456" Local_ID="0" Value="Y" CategoryFeature_ID="39564" CategoryFeatureGroup_ID="2687" No="10100000" Presentation_Value="Y" Translated="0" Mandatory="1" Searchable="1">
+      <LocalValue Value=""/>
+	  <Feature ID="838">
+	    <Measure ID="26" Sign="">
+	      <Signs/>
+	    </Measure>
+	    <Name ID="427746" langid="11" Value="Com certificação Energy Star"/>
+	  </Feature>
+	</ProductFeature>
+
+       <ProductGallery>
+      <ProductPicture LowPic="" LowPicHeight="0" LowPicWidth="0" LowSize="0" Pic="http://images.icecat.biz/img/gallery/17496962_1639.jpg" Pic500x500="" Pic500x500Height="0" Pic500x500Size="0" Pic500x500Width="0" PicHeight="356" PicWidth="474" ProductPicture_ID="2224282" Size="56079" ThumbPic="http://images.icecat.biz/img/gallery_thumbs/17496962_1639.jpg" ThumbSize="3419"/>
+      <ProductPicture LowPic="" LowPicHeight="0" LowPicWidth="0" LowSize="0" Pic="http://images.icecat.biz/img/gallery/17496962_5694.jpg" Pic500x500="" Pic500x500Height="0" Pic500x500Size="0" Pic500x500Width="0" PicHeight="356" PicWidth="474" ProductPicture_ID="2224283" Size="55334" ThumbPic="http://images.icecat.biz/img/gallery_thumbs/17496962_5694.jpg" ThumbSize="3545"/>
+      <ProductPicture LowPic="" LowPicHeight="0" LowPicWidth="0" LowSize="0" Pic="http://images.icecat.biz/img/gallery/17496962_732.jpg" Pic500x500="" Pic500x500Height="0" Pic500x500Size="0" Pic500x500Width="0" PicHeight="1366" PicWidth="1366" ProductPicture_ID="2224284" Size="151362" ThumbPic="http://images.icecat.biz/img/gallery_thumbs/17496962_732.jpg" ThumbSize="2482"/>
+      <ProductPicture LowPic="" LowPicHeight="0" LowPicWidth="0" LowSize="0" Pic="http://images.icecat.biz/img/gallery/17496962_98.jpg" Pic500x500="" Pic500x500Height="0" Pic500x500Size="0" Pic500x500Width="0" PicHeight="1377" PicWidth="1377" ProductPicture_ID="2224285" Size="95311" ThumbPic="http://images.icecat.biz/img/gallery_thumbs/17496962_98.jpg" ThumbSize="1780"/>
+      <ProductPicture LowPic="" LowPicHeight="0" LowPicWidth="0" LowSize="0" Pic="http://images.icecat.biz/img/feature_logo/1-3750.png" Pic500x500="" Pic500x500Height="0" Pic500x500Size="0" Pic500x500Width="0" PicHeight="200" PicWidth="200" ProductPicture_ID="1" Size="27992" ThumbPic="http://images.icecat.biz/img/feature_logo_thumbs/1-3750.png" ThumbSize="0" langid="1" logo="1"/>
+      <ProductPicture LowPic="" LowPicHeight="0" LowPicWidth="0" LowSize="0" Pic="http://images.icecat.biz/img/feature_logo/4-8210.png" Pic500x500="" Pic500x500Height="0" Pic500x500Size="0" Pic500x500Width="0" PicHeight="200" PicWidth="195" ProductPicture_ID="4" Size="35338" ThumbPic="http://images.icecat.biz/img/feature_logo_thumbs/4-8210.png" ThumbSize="0" langid="1" logo="1"/>
+    </ProductGallery>
+
+   <ProductMultimediaObject/>
+   	  <ProductRelated ID="146592331" Category_ID="788" Reversed="0" Preferred="1" Order="1">
+	    <Product ID="23129220" Prod_id="UK703A#KIT" ThumbPic="http://images.icecat.biz/thumbs/23129220.jpg" Name="3 year Next business day Onsite Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901809" Category_ID="788" Reversed="0" Preferred="1" Order="1">
+	    <Product ID="3921125" Prod_id="UK703A" ThumbPic="http://images.icecat.biz/thumbs/3921125.jpg" Name="3 year NBD Onsite Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="146592332" Category_ID="788" Reversed="0" Preferred="1" Order="2">
+	    <Product ID="23129221" Prod_id="UK703E#KIT" ThumbPic="http://images.icecat.biz/thumbs/23129221.jpg" Name="3 year Next business day onsite Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684122" Category_ID="788" Reversed="0" Preferred="1" Order="2">
+	    <Product ID="1591068" Prod_id="UK703E" ThumbPic="http://images.icecat.biz/thumbs/1591068.jpg" Name="UK703E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684127" Category_ID="788" Reversed="0" Preferred="1" Order="3">
+	    <Product ID="1645360" Prod_id="UK707A" ThumbPic="http://images.icecat.biz/thumbs/1645360.jpg" Name="UK707A">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901901" Category_ID="827" Reversed="0" Preferred="1">
+	    <Product ID="16485364" Prod_id="AU155AA#B13" ThumbPic="http://images.icecat.biz/thumbs/16485364.jpg" Name="65W Smart Travel AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901913" Category_ID="152" Reversed="0" Preferred="1">
+	    <Product ID="16667726" Prod_id="H1L08AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667726.jpg" Name="H1L08AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901890" Category_ID="1285" Reversed="0" Preferred="1">
+	    <Product ID="15923760" Prod_id="H4J91AA" ThumbPic="http://images.icecat.biz/thumbs/15923760.jpg" Name="Professional Slim Top Load Case">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901957" Category_ID="827" Reversed="0" Preferred="1">
+	    <Product ID="20120778" Prod_id="AU155AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/20120778.jpg" Name="65W Smart Travel AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901956" Category_ID="827" Reversed="0" Preferred="1">
+	    <Product ID="17756990" Prod_id="AU155AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/17756990.jpg" Name="65W Smart Travel AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901900" Category_ID="152" Reversed="0" Preferred="1">
+	    <Product ID="16485292" Prod_id="H1L08AA#B13" ThumbPic="http://images.icecat.biz/thumbs/16485292.jpg" Name="3005pr USB 3.0 Port Replicator">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901873" Category_ID="152" Reversed="0" Preferred="1">
+	    <Product ID="14705263" Prod_id="H1L08AA" ThumbPic="http://images.icecat.biz/thumbs/14705263.jpg" Name="3005pr USB 3.0 Port Replicator">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901871" Category_ID="152" Reversed="0" Preferred="1">
+	    <Product ID="14705133" Prod_id="H1L08AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/14705133.jpg" Name="3005pr USB 3.0 Port Replicator">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685658" Category_ID="814" Reversed="0" Preferred="1">
+	    <Product ID="8961614" Prod_id="QK646AA" ThumbPic="http://images.icecat.biz/thumbs/8961614.jpg" Name="PR06">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901810" Category_ID="827" Reversed="0" Preferred="1">
+	    <Product ID="3946255" Prod_id="AU155AA" ThumbPic="http://images.icecat.biz/thumbs/3946255.jpg" Name="65W Smart Travel AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684112" Category_ID="788" Reversed="0" Preferred="0" Order="4">
+	    <Product ID="1587821" Prod_id="UK707E" ThumbPic="http://images.icecat.biz/thumbs/1587821.jpg" Name="UK707E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901808" Category_ID="788" Reversed="0" Preferred="0" Order="5">
+	    <Product ID="3921119" Prod_id="UK726A" ThumbPic="http://images.icecat.biz/thumbs/3921119.jpg" Name="3 year Next business day Onsite with Accidental Damage Protection Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684123" Category_ID="788" Reversed="0" Preferred="0" Order="6">
+	    <Product ID="1591088" Prod_id="UK726E" ThumbPic="http://images.icecat.biz/thumbs/1591088.jpg" Name="UK726E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684108" Category_ID="788" Reversed="0" Preferred="0" Order="7">
+	    <Product ID="1587793" Prod_id="UK718E" ThumbPic="http://images.icecat.biz/thumbs/1587793.jpg" Name="UK718E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684109" Category_ID="788" Reversed="0" Preferred="0" Order="8">
+	    <Product ID="1587796" Prod_id="UK712E" ThumbPic="http://images.icecat.biz/thumbs/1587796.jpg" Name="UK712E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684110" Category_ID="788" Reversed="0" Preferred="0" Order="9">
+	    <Product ID="1587797" Prod_id="UK723E" ThumbPic="http://images.icecat.biz/thumbs/1587797.jpg" Name="UK723E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684124" Category_ID="788" Reversed="0" Preferred="0" Order="10">
+	    <Product ID="1591114" Prod_id="UK716E" ThumbPic="http://images.icecat.biz/thumbs/1591114.jpg" Name="UK716E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901803" Category_ID="1592" Reversed="0" Preferred="0" Order="11">
+	    <Product ID="3857660" Prod_id="UQ929E" ThumbPic="http://images.icecat.biz/thumbs/3857660.jpg" Name="1 year Computrace Data Protection Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684133" Category_ID="788" Reversed="0" Preferred="0" Order="12">
+	    <Product ID="1747056" Prod_id="UL656E" ThumbPic="http://images.icecat.biz/thumbs/1747056.jpg" Name="1 year Next business day Onsite with Defective Media Retention Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684144" Category_ID="788" Reversed="0" Preferred="0" Order="13">
+	    <Product ID="2006212" Prod_id="UL724E" ThumbPic="http://images.icecat.biz/thumbs/2006212.jpg" Name="1Y">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901804" Category_ID="1592" Reversed="0" Preferred="0" Order="14">
+	    <Product ID="3857663" Prod_id="UQ930E" ThumbPic="http://images.icecat.biz/thumbs/3857663.jpg" Name="2 year Compturace Data Protection Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901886" Category_ID="788" Reversed="0" Preferred="0" Order="15">
+	    <Product ID="15737560" Prod_id="UK727A" ThumbPic="http://images.icecat.biz/thumbs/15737560.jpg" Name="2 year Pickup and Return Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684129" Category_ID="788" Reversed="0" Preferred="0" Order="16">
+	    <Product ID="1662619" Prod_id="UK734A" ThumbPic="http://images.icecat.biz/thumbs/1662619.jpg" Name="2 year Return to Depot Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684145" Category_ID="788" Reversed="0" Preferred="0" Order="17">
+	    <Product ID="2006213" Prod_id="UL725E" ThumbPic="http://images.icecat.biz/thumbs/2006213.jpg" Name="2Y">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684130" Category_ID="788" Reversed="0" Preferred="0" Order="18">
+	    <Product ID="1662717" Prod_id="UK735A" ThumbPic="http://images.icecat.biz/thumbs/1662717.jpg" Name="3 year Return to Depot Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684143" Category_ID="788" Reversed="0" Preferred="0" Order="19">
+	    <Product ID="2002648" Prod_id="UL726E" ThumbPic="http://images.icecat.biz/thumbs/2002648.jpg" Name="3Y">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901807" Category_ID="1592" Reversed="0" Preferred="0" Order="20">
+	    <Product ID="3857722" Prod_id="UQ932E" ThumbPic="http://images.icecat.biz/thumbs/3857722.jpg" Name="4 year Computrace Data Protection Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684114" Category_ID="788" Reversed="0" Preferred="0" Order="21">
+	    <Product ID="1587823" Prod_id="UK720E" ThumbPic="http://images.icecat.biz/thumbs/1587823.jpg" Name="4 year PickupReturn Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684140" Category_ID="788" Reversed="0" Preferred="0" Order="22">
+	    <Product ID="1954386" Prod_id="UL847E" ThumbPic="http://images.icecat.biz/thumbs/1954386.jpg" Name="4Y">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901805" Category_ID="1592" Reversed="0" Preferred="0" Order="23">
+	    <Product ID="3857671" Prod_id="UQ933E" ThumbPic="http://images.icecat.biz/thumbs/3857671.jpg" Name="5 year Compturace Data Protection Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684149" Category_ID="788" Reversed="0" Preferred="0" Order="24">
+	    <Product ID="2201827" Prod_id="UM237E" ThumbPic="http://images.icecat.biz/thumbs/2201827.jpg" Name="5 year Next business day onsite with Accidental Damage Protection Notebook Only Service">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684141" Category_ID="788" Reversed="0" Preferred="0" Order="25">
+	    <Product ID="1954387" Prod_id="UL848E" ThumbPic="http://images.icecat.biz/thumbs/1954387.jpg" Name="5Y">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684115" Category_ID="788" Reversed="0" Preferred="0" Order="26">
+	    <Product ID="1587824" Prod_id="UK721E" ThumbPic="http://images.icecat.biz/thumbs/1587824.jpg" Name="5Y">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684146" Category_ID="788" Reversed="0" Preferred="0" Order="27">
+	    <Product ID="2006214" Prod_id="UL728E" ThumbPic="http://images.icecat.biz/thumbs/2006214.jpg" Name="5Y">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684117" Category_ID="788" Reversed="0" Preferred="0" Order="28">
+	    <Product ID="1587880" Prod_id="UK701E" ThumbPic="http://images.icecat.biz/thumbs/1587880.jpg" Name="UK701E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684113" Category_ID="788" Reversed="0" Preferred="0" Order="29">
+	    <Product ID="1587822" Prod_id="UK727E" ThumbPic="http://images.icecat.biz/thumbs/1587822.jpg" Name="UK727E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684126" Category_ID="788" Reversed="0" Preferred="0" Order="30">
+	    <Product ID="1643308" Prod_id="UK748E" ThumbPic="http://images.icecat.biz/thumbs/1643308.jpg" Name="UK748E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684134" Category_ID="788" Reversed="0" Preferred="0" Order="31">
+	    <Product ID="1747058" Prod_id="UL657E" ThumbPic="http://images.icecat.biz/thumbs/1747058.jpg" Name="UL657E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684135" Category_ID="788" Reversed="0" Preferred="0" Order="32">
+	    <Product ID="1747062" Prod_id="UL658E" ThumbPic="http://images.icecat.biz/thumbs/1747062.jpg" Name="UL658E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684136" Category_ID="788" Reversed="0" Preferred="0" Order="33">
+	    <Product ID="1747063" Prod_id="UL659E" ThumbPic="http://images.icecat.biz/thumbs/1747063.jpg" Name="UL659E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684132" Category_ID="788" Reversed="0" Preferred="0" Order="34">
+	    <Product ID="1747055" Prod_id="UL680E" ThumbPic="http://images.icecat.biz/thumbs/1747055.jpg" Name="UL680E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684131" Category_ID="788" Reversed="0" Preferred="0" Order="35">
+	    <Product ID="1713967" Prod_id="UL727E" ThumbPic="http://images.icecat.biz/thumbs/1713967.jpg" Name="UL727E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684138" Category_ID="788" Reversed="0" Preferred="0" Order="36">
+	    <Product ID="1954384" Prod_id="UL845E" ThumbPic="http://images.icecat.biz/thumbs/1954384.jpg" Name="UL845E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684139" Category_ID="788" Reversed="0" Preferred="0" Order="37">
+	    <Product ID="1954385" Prod_id="UL846E" ThumbPic="http://images.icecat.biz/thumbs/1954385.jpg" Name="UL846E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901806" Category_ID="788" Reversed="0" Preferred="0" Order="38">
+	    <Product ID="3857715" Prod_id="UQ931E" ThumbPic="http://images.icecat.biz/thumbs/3857715.jpg" Name="UQ931E">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684116" Category_ID="788" Reversed="0" Preferred="0" Order="39">
+	    <Product ID="1587825" Prod_id="UK709PE" ThumbPic="http://images.icecat.biz/thumbs/1587825.jpg" Name="1Y">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684121" Category_ID="788" Reversed="0" Preferred="0" Order="40">
+	    <Product ID="1591056" Prod_id="UK705PE" ThumbPic="http://images.icecat.biz/thumbs/1591056.jpg" Name="UK705PE">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="131170125" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="18638867" Prod_id="H6Y75AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/18561313.jpg" Name="4GB DDR3-1600">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117403549" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="16668689" Prod_id="ED495AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/460776.jpg" Name="90W Smart AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="15512527" Prod_id="2CF-00047" ThumbPic="http://images.icecat.biz/thumbs/15512527.jpg" Name="Wireless Mobile Mouse 1000">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117188625" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668025" Prod_id="A0X35AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668025.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124409671" Category_ID="152" Reversed="0" Preferred="0">
+	    <Product ID="16667679" Prod_id="H1L08ET#ABB" ThumbPic="http://images.icecat.biz/thumbs/14852007.jpg" Name="3005pr USB 3.0 Port Replicator">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="131170961" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="18662153" Prod_id="H6Y75ET#AC3" ThumbPic="http://images.icecat.biz/thumbs/18667631.jpg" Name="4GB DDR3-1600">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123519478" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="16668697" Prod_id="ED494AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/460775.jpg" Name="65W Smart AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123518276" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="16668333" Prod_id="AX727AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/5081404.jpg" Name="65W Slim Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117116884" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="16667681" Prod_id="A5F64AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667681.jpg" Name="HD 2300">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="15512722" Prod_id="GMF-00292" ThumbPic="http://images.icecat.biz/thumbs/15512722.jpg" Name="Wireless Mobile Mouse 3500">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="15512726" Prod_id="JUG-00015" ThumbPic="http://images.icecat.biz/thumbs/15512726.jpg" Name="LifeChat LX-3000">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117678521" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="17637377" Prod_id="H4A41AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/17637377.jpg" Name="90W Slim Combo USB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="18253919" Prod_id="H3S-00002" ThumbPic="http://images.icecat.biz/thumbs/18253919.jpg" Name="Sculpt Comfort">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="15620134" Prod_id="Q2F-00015" ThumbPic="http://images.icecat.biz/thumbs/15620134.jpg" Name="LifeCam Studio">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117317228" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="16668244" Prod_id="BT796AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/6061856.jpg" Name="90W Slim Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124409512" Category_ID="152" Reversed="0" Preferred="0">
+	    <Product ID="16665179" Prod_id="H1L07ET#ABB" ThumbPic="http://images.icecat.biz/thumbs/14852006.jpg" Name="2005pr USB 2.0">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684137" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="1894871" Prod_id="ED494AA" ThumbPic="http://images.icecat.biz/thumbs/460775.jpg" Name="65W Smart AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116871518" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="15922586" Prod_id="H2P64AA" ThumbPic="http://images.icecat.biz/thumbs/15922586.jpg" Name="PC3-12800 4GB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684325" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="17695102" Prod_id="H5M93AA" ThumbPic="http://images.icecat.biz/thumbs/17695102.jpg" Name="Business 4 Wheel Roller">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116804459" Category_ID="977" Reversed="0" Preferred="0">
+	    <Product ID="15663099" Prod_id="H4D73AA" ThumbPic="http://images.icecat.biz/thumbs/15663099.jpg" Name="Ultraslim Keyed Cable Lock">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="15512804" Prod_id="T3H-00013" ThumbPic="http://images.icecat.biz/thumbs/15512804.jpg" Name="LifeCam HD-3000">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="15512725" Prod_id="H5D-00015" ThumbPic="http://images.icecat.biz/thumbs/15512725.jpg" Name="LifeCam Cinema">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="18229398" Prod_id="43U-00004" ThumbPic="http://images.icecat.biz/thumbs/18229398.jpg" Name="Sculpt Mobile Mouse">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117127517" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16667692" Prod_id="H2C22AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667692.jpg" Name="X3000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117119854" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="16667690" Prod_id="H2C25AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/14521839.jpg" Name="Digital Premium SE">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117230715" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="16668068" Prod_id="QB683AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668068.jpg" Name="Value Top Load 18&quot;">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="15756189" Prod_id="2AA-00010" ThumbPic="http://images.icecat.biz/thumbs/15756189.jpg" Name="LifeChat LX-2000">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116959721" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="15986872" Prod_id="LV290AA" ThumbPic="http://images.icecat.biz/thumbs/15986872.jpg" Name="Wireless Classic Desktop">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116308180" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="14150826" Prod_id="H2P65AA" ThumbPic="http://images.icecat.biz/thumbs/14150826.jpg" Name="8GB DDR3 1600MHz SO-DIMM">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901918" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668027" Prod_id="H1D33AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668027.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116665436" Category_ID="2926" Reversed="0" Preferred="0">
+	    <Product ID="15519034" Prod_id="H4F02AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/15425304.jpg" Name="HDMI to VGA Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117249270" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668114" Prod_id="LB454AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668114.jpg" Name="LB454AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="118254752" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="17695101" Prod_id="H5M90AA" ThumbPic="http://images.icecat.biz/thumbs/17695101.jpg" Name="Business Backpack">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117296084" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668230" Prod_id="KY619AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668230.jpg" Name="KY619AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684323" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="17410439" Prod_id="H4A41AA" ThumbPic="http://images.icecat.biz/thumbs/17637377.jpg" Name="90W Slim Combo USB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116639497" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="15425303" Prod_id="H4B81AA" ThumbPic="http://images.icecat.biz/thumbs/15425303.jpg" Name="H4B81AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117277589" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668196" Prod_id="LQ083AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668196.jpg" Name="Wi-Fi Mobile Mouse">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134499568" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="16668502" Prod_id="AJ652AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/2504662.jpg" Name="90W Smart AC/Auto/Air Combo Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117284623" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="16668198" Prod_id="LR378AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668198.jpg" Name="LR378AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117261303" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668123" Prod_id="LR918AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668123.jpg" Name="LR918AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="119006707" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668439" Prod_id="FQ983AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668439.jpg" Name="FQ983AA#ABB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117447791" Category_ID="1020" Reversed="0" Preferred="0">
+	    <Product ID="16669551" Prod_id="H2C23AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16669551.jpg" Name="H1000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117257333" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668122" Prod_id="BR376AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668122.jpg" Name="BR376AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124414852" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="18561313" Prod_id="H6Y75AA" ThumbPic="http://images.icecat.biz/thumbs/18561313.jpg" Name="4GB DDR3-1600">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117225201" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="16668055" Prod_id="QF373AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668055.jpg" Name="HA3000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117302053" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="16668232" Prod_id="XA490AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/6268415.jpg" Name="XA490AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117192830" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668026" Prod_id="A0X36AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668026.jpg" Name="X5000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124408691" Category_ID="2813" Reversed="0" Preferred="0">
+	    <Product ID="16302488" Prod_id="H4Q44AA" ThumbPic="http://images.icecat.biz/thumbs/16302488.jpg" Name="H4Q44AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123516272" Category_ID="152" Reversed="0" Preferred="0">
+	    <Product ID="16667727" Prod_id="H1L07AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/14717155.jpg" Name="2005pr USB 2.0 Port Replicator">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117354222" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="16668312" Prod_id="VT501AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668312.jpg" Name="VT501AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117183876" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668023" Prod_id="H1D34AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668023.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117210217" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="16668032" Prod_id="QD834AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668032.jpg" Name="H8000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117143886" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16667698" Prod_id="H2F40AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667698.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117203753" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668030" Prod_id="QA184AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668030.jpg" Name="X7000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117333137" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668260" Prod_id="XP355AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668260.jpg" Name="XP355AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="119006669" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16667691" Prod_id="H2F47AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667691.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117151636" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16667700" Prod_id="H2F48AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667700.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124405748" Category_ID="152" Reversed="0" Preferred="0">
+	    <Product ID="14853199" Prod_id="H1L08ET" ThumbPic="http://images.icecat.biz/thumbs/14852007.jpg" Name="3005pr USB 3.0 Port Replicator">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124405620" Category_ID="152" Reversed="0" Preferred="0">
+	    <Product ID="14852006" Prod_id="H1L07ET" ThumbPic="http://images.icecat.biz/thumbs/14852006.jpg" Name="2005pr USB 2.0">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117502118" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="16669756" Prod_id="A5F63AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16669756.jpg" Name="HD 3300">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117452024" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="16669552" Prod_id="A5F62AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16669552.jpg" Name="HD 3310">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="1501" Reversed="0" Preferred="0">
+	    <Product ID="14704282" Prod_id="ACA038EU" ThumbPic="http://images.icecat.biz/thumbs/14704282.jpg" Name="USB 3.0 SuperSpeed Multi Video">
+	      <Supplier ID="128" Name="Targus"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124413535" Category_ID="2813" Reversed="0" Preferred="0">
+	    <Product ID="17909927" Prod_id="H4Q44AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/17909927.jpg" Name="Slim Bluetooth Keyboard">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116808665" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="15669805" Prod_id="H3T50AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/15669805.jpg" Name="H3T50AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117112674" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16667680" Prod_id="H2C21AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667680.jpg" Name="H2C21AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117148073" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16667699" Prod_id="H2F39AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667699.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901930" Category_ID="123" Reversed="0" Preferred="0">
+	    <Product ID="16668197" Prod_id="RF824AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668197.jpg" Name="H2000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="132069734" Category_ID="214" Reversed="0" Preferred="0">
+	    <Product ID="15602829" Prod_id="A2U57AA?ACC" ThumbPic="http://images.icecat.biz/thumbs/11262428.jpg" Name="Mobile USB NLS DVD-RW Drive">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117443827" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="16669550" Prod_id="A5F65AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16669550.jpg" Name="1300">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116898404" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="15928663" Prod_id="H3T50AA" ThumbPic="http://images.icecat.biz/thumbs/15928663.jpg" Name="X4000b">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117205937" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="16668031" Prod_id="H0X93AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/12255228.jpg" Name="HD-5210">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117322955" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668257" Prod_id="XP357AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668257.jpg" Name="XP357AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="121037011" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="18504097" Prod_id="QD949AA" ThumbPic="http://images.icecat.biz/thumbs/18504097.jpg" Name="Slim Keyboard">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117455967" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16669553" Prod_id="H2P31AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16669553.jpg" Name="H2P31AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123343408" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668277" Prod_id="WE790AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668277.jpg" Name="WE790AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117139791" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16667697" Prod_id="H2F41AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667697.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="145670523" Category_ID="2926" Reversed="0" Preferred="0">
+	    <Product ID="22600520" Prod_id="H4F02AA - NEW RETAIL" ThumbPic="http://images.icecat.biz/thumbs/15425304.jpg" Name="HDMI to VGA Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685650" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="4844142" Prod_id="AW663AA" ThumbPic="http://images.icecat.biz/thumbs/4713922.jpg" Name="Adjustable Display Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117373845" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="16668423" Prod_id="LV290AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/15986872.jpg" Name="Wireless Classic Desktop">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129298095" Category_ID="977" Reversed="0" Preferred="0">
+	    <Product ID="15517293" Prod_id="NS-VGALOCK" ThumbPic="http://images.icecat.biz/thumbs/15517293.jpg" Name="NSVGALOCK">
+	      <Supplier ID="290" Name="Newstar"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116870495" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="15922585" Prod_id="H2P63AA" ThumbPic="http://images.icecat.biz/thumbs/15922585.jpg" Name="PC3-12800 2GB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116650633" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="15440955" Prod_id="A5F62AA" ThumbPic="http://images.icecat.biz/thumbs/15440955.jpg" Name="HD 3310">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117131693" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16667695" Prod_id="H2F43AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667695.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901896" Category_ID="1823" Reversed="0" Preferred="0">
+	    <Product ID="16302725" Prod_id="H4K63AA" ThumbPic="http://images.icecat.biz/thumbs/16302725.jpg" Name="WD My Passport 500GB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117327054" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668258" Prod_id="XP358AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668258.jpg" Name="XP358AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="136954233" Category_ID="869" Reversed="0" Preferred="0">
+	    <Product ID="16668004" Prod_id="A3H24AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/11678032.jpg" Name="A3H24AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117289906" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668214" Prod_id="XQ500AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668214.jpg" Name="XQ500AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901950" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="16669578" Prod_id="WZ972AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16669578.jpg" Name="WZ972AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15435811" Prod_id="MTP13FMB3RAA" ThumbPic="http://images.icecat.biz/thumbs/15435811.jpg" Name="Total Protection 2013, 3U">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901952" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="16669648" Prod_id="QB643AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/18504091.jpg" Name="C7000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117253590" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="16668121" Prod_id="VP052AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/8886006.jpg" Name="In-ear Stereo Headset">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15563094" Prod_id="MAV13FMB1RAA" ThumbPic="http://images.icecat.biz/thumbs/15563094.jpg" Name="AntiVirus Plus 2013, 1U">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117220306" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="16668053" Prod_id="LR374AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668053.jpg" Name="HD-5210">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="14852026" Prod_id="VRS13DMB1RAA" ThumbPic="http://images.icecat.biz/thumbs/14852026.jpg" Name="Virus Removal Service 2013, NL">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901951" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="16669644" Prod_id="A0X32AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/18503664.jpg" Name="C6000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="121037008" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="18504091" Prod_id="QB643AA" ThumbPic="http://images.icecat.biz/thumbs/18504091.jpg" Name="C7000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117135696" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16667696" Prod_id="H2F42AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16667696.jpg" Name="X4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117292325" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="16668228" Prod_id="WW553AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/5893073.jpg" Name="WW553AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124498300" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="18667631" Prod_id="H6Y75ET" ThumbPic="http://images.icecat.biz/thumbs/18667631.jpg" Name="4GB DDR3-1600">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15435809" Prod_id="MIS13FMB3RAA" ThumbPic="http://images.icecat.biz/thumbs/15435809.jpg" Name="Internet Security 2013, 3U">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117021167" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="16483721" Prod_id="ED495AA#B13" ThumbPic="http://images.icecat.biz/thumbs/460776.jpg" Name="90W Smart AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15435805" Prod_id="MAV13FMB3RAA" ThumbPic="http://images.icecat.biz/thumbs/15435805.jpg" Name="AntiVirus Plus 2013, 3U">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901802" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="3422937" Prod_id="RF824AA" ThumbPic="http://images.icecat.biz/thumbs/1449352.jpg" Name="Stereo Headset">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15435810" Prod_id="MIS13FMB3RDA" ThumbPic="http://images.icecat.biz/thumbs/15435810.jpg" Name="Internet Security 2013, 3U, Upg.">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116848216" Category_ID="2926" Reversed="0" Preferred="0">
+	    <Product ID="15745634" Prod_id="H4F02AA" ThumbPic="http://images.icecat.biz/thumbs/15425304.jpg" Name="HDMI to VGA Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901899" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="16483756" Prod_id="WZ972AA#B13" ThumbPic="http://images.icecat.biz/thumbs/16483756.jpg" Name="Classic Wired Keyboard">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="14852014" Prod_id="MIS13DMB3RDA" ThumbPic="http://images.icecat.biz/thumbs/14852014.jpg" Name="Internet Security 2013, 3U, Upg.">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123650213" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16713248" Prod_id="H3T50AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/15928663.jpg" Name="X4000b">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117299856" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668231" Prod_id="XA964AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668231.jpg" Name="XA964AA#ABB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="136554393" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="18331052" Prod_id="FQ983AA#ABB-RFB" ThumbPic="http://images.icecat.biz/thumbs/1662696.jpg" Name="Laser Mobile Mini Mouse, Refurbished">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="121037000" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="18503664" Prod_id="A0X32AA" ThumbPic="http://images.icecat.biz/thumbs/18503664.jpg" Name="C6000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15435812" Prod_id="MTP13FMB3RDA" ThumbPic="http://images.icecat.biz/thumbs/15435812.jpg" Name="Total Protection 2013, 3U, Upg.">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684150" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="2988586" Prod_id="FQ983AA" ThumbPic="http://images.icecat.biz/thumbs/1662696.jpg" Name="Laser Mobile Mini Mouse">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15563096" Prod_id="MIS13FMB1RAA" ThumbPic="http://images.icecat.biz/thumbs/15563096.jpg" Name="Internet Security 2013, 1U">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="148751259" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="24592861" Prod_id="LV290AA#B13" ThumbPic="http://images.icecat.biz/thumbs/24592861.jpg" Name="Wireless Classic Desktop">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="136647688" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="22150577" Prod_id="H4A41AA#KIT" ThumbPic="http://images.icecat.biz/thumbs/22150577.jpg" Name="90W Slim Combo Adapter with USB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="136647687" Category_ID="977" Reversed="0" Preferred="0">
+	    <Product ID="22150570" Prod_id="AY475AA#KIT" ThumbPic="http://images.icecat.biz/thumbs/22150570.jpg" Name="Notebook Combo Lock">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="145670143" Category_ID="2926" Reversed="0" Preferred="0">
+	    <Product ID="21490542" Prod_id="H4F02AA#ABA?LA" ThumbPic="http://images.icecat.biz/thumbs/15425304.jpg" Name="HDMI to VGA Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="145669763" Category_ID="2926" Reversed="0" Preferred="0">
+	    <Product ID="20334265" Prod_id="H4F02UTABA" ThumbPic="http://images.icecat.biz/thumbs/15425304.jpg" Name="HDMI to VGA Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="145670903" Category_ID="2926" Reversed="0" Preferred="0">
+	    <Product ID="20334264" Prod_id="H4F02AAABA" ThumbPic="http://images.icecat.biz/thumbs/15425304.jpg" Name="HDMI to VGA Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134612908" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="20329485" Prod_id="AW663AAABA" ThumbPic="http://images.icecat.biz/thumbs/4713922.jpg" Name="Adjustable Display Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134608755" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="20329482" Prod_id="AW661AAABA" ThumbPic="http://images.icecat.biz/thumbs/4713930.jpg" Name="Dual Hinge Notebook Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="132075926" Category_ID="214" Reversed="0" Preferred="0">
+	    <Product ID="20329289" Prod_id="A2U57AAABA" ThumbPic="http://images.icecat.biz/thumbs/11262428.jpg" Name="Mobile USB NLS DVD-RW Drive">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="132073862" Category_ID="214" Reversed="0" Preferred="0">
+	    <Product ID="19845308" Prod_id="A2U57AA#AC3#*SHOW-IT*" ThumbPic="http://images.icecat.biz/thumbs/11262428.jpg" Name="Mobile USB NLS DVD-RW Drive">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124922317" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="19609392" Prod_id="H1D25AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/14291054.jpg" Name="Essential Messenger">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124416761" Category_ID="2813" Reversed="0" Preferred="0">
+	    <Product ID="19365603" Prod_id="H4Q44AA#ABH" ThumbPic="http://images.icecat.biz/thumbs/19365603.jpg" Name="Slim Bluetooth Keyboard">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124005623" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="19314055" Prod_id="H4A41AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/19314055.jpg" Name="90W Slim Combo Adapter with USB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123735670" Category_ID="829" Reversed="0" Preferred="0">
+	    <Product ID="19202494" Prod_id="QL816AA#XXX" ThumbPic="http://images.icecat.biz/thumbs/19202494.jpg" Name="Notebook Battery Charger">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123627185" Category_ID="219" Reversed="0" Preferred="0">
+	    <Product ID="19167210" Prod_id="H2P67AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/19167210.jpg" Name="750 GB 7200 rpm Primary SATA Hard Drive">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="132071798" Category_ID="214" Reversed="0" Preferred="0">
+	    <Product ID="19167010" Prod_id="A2U57AA?ETC2" ThumbPic="http://images.icecat.biz/thumbs/11262428.jpg" Name="Mobile USB NLS DVD-RW Drive">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123466914" Category_ID="1823" Reversed="0" Preferred="0">
+	    <Product ID="18650686" Prod_id="H6T32AA" ThumbPic="http://images.icecat.biz/thumbs/18650686.jpg" Name="p2100 1TB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123466913" Category_ID="1823" Reversed="0" Preferred="0">
+	    <Product ID="18650685" Prod_id="H6T31AA" ThumbPic="http://images.icecat.biz/thumbs/18650685.jpg" Name="p2050 500GB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123466912" Category_ID="1823" Reversed="0" Preferred="0">
+	    <Product ID="18650684" Prod_id="H6T30AA" ThumbPic="http://images.icecat.biz/thumbs/18650684.jpg" Name="p2100 1TB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123466911" Category_ID="1823" Reversed="0" Preferred="0">
+	    <Product ID="18650683" Prod_id="H6T29AA" ThumbPic="http://images.icecat.biz/thumbs/18650683.jpg" Name="p2050 500GB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="120040647" Category_ID="316" Reversed="0" Preferred="0">
+	    <Product ID="18444170" Prod_id="NW281AA#B10" ThumbPic="http://images.icecat.biz/thumbs/18444170.jpg" Name="Classroom Manager 2.0">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="119975752" Category_ID="316" Reversed="0" Preferred="0">
+	    <Product ID="18373926" Prod_id="NW281AA#B1S" ThumbPic="http://images.icecat.biz/thumbs/18373926.jpg" Name="Classroom Manager 2.0">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134610821" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="18330652" Prod_id="AW663AA-RFB" ThumbPic="http://images.icecat.biz/thumbs/4713922.jpg" Name="Adjustable Display Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="118436386" Category_ID="316" Reversed="0" Preferred="0">
+	    <Product ID="18168879" Prod_id="NW281AA" ThumbPic="http://images.icecat.biz/thumbs/18168879.jpg" Name="Classroom Manager 2.0">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117516716" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="16669828" Prod_id="BK357AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16669828.jpg" Name="HD-3110">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901953" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="16669685" Prod_id="QD949AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/18504097.jpg" Name="Slim Keyboard">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117360201" Category_ID="2926" Reversed="0" Preferred="0">
+	    <Product ID="16668361" Prod_id="H4F02AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/15425304.jpg" Name="HDMI to VGA Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117306144" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="16668233" Prod_id="XA965AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668233.jpg" Name="XA965AA#ABB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117243419" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="16668107" Prod_id="XA407AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/7803831.jpg" Name="HD-4110">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117228669" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="16668067" Prod_id="XR343AA#ABB" ThumbPic="http://images.icecat.biz/thumbs/16668067.jpg" Name="XR343AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117039965" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="16485375" Prod_id="BT796AA#B13" ThumbPic="http://images.icecat.biz/thumbs/16485375.jpg" Name="90W Slim Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123513925" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="16483720" Prod_id="ED494AA#B13" ThumbPic="http://images.icecat.biz/thumbs/460775.jpg" Name="65W Smart AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134478280" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="16483717" Prod_id="AJ652AA#B13" ThumbPic="http://images.icecat.biz/thumbs/2504662.jpg" Name="90W Smart AC/Auto/Air Combo Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124996189" Category_ID="219" Reversed="0" Preferred="0">
+	    <Product ID="16302724" Prod_id="H4K62AA" ThumbPic="http://images.icecat.biz/thumbs/16302724.jpg" Name="Western Digital Elements 500GB External Hard Disk Drive">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901894" Category_ID="1823" Reversed="0" Preferred="0">
+	    <Product ID="16032589" Prod_id="H4K64AA" ThumbPic="http://images.icecat.biz/thumbs/16032589.jpg" Name="H4K64AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116945894" Category_ID="977" Reversed="0" Preferred="0">
+	    <Product ID="15948357" Prod_id="H4D73AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/15948357.jpg" Name="Ultraslim Keyed Cable Lock">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15706346" Prod_id="MIS13DMB1RAA" ThumbPic="http://images.icecat.biz/thumbs/15706346.jpg" Name="Internet Security 2013, 1U">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15706314" Prod_id="MAV13DMB1RAA" ThumbPic="http://images.icecat.biz/thumbs/15706314.jpg" Name="AntiVirus Plus 2013, 1U">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123336318" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="15608716" Prod_id="WE790AA" ThumbPic="http://images.icecat.biz/thumbs/15608716.jpg" Name="WE790AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15435806" Prod_id="MAV13FMB3RDA" ThumbPic="http://images.icecat.biz/thumbs/15435806.jpg" Name="AntiVirus Plus 2013, 3U, Upg.">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15435800" Prod_id="AAI13FMB1RAA" ThumbPic="http://images.icecat.biz/thumbs/15435800.jpg" Name="All Access, Individual, FR">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15435799" Prod_id="AAH13FMB5RAA" ThumbPic="http://images.icecat.biz/thumbs/15435799.jpg" Name="All Access, Household, FR">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="15407389" Prod_id="MTP13DMB3RDA" ThumbPic="http://images.icecat.biz/thumbs/15407389.jpg" Name="Total Protection 2013, 3U, Upg.">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="15040342" Prod_id="1200190R-W" ThumbPic="http://images.icecat.biz/thumbs/15040342.jpg" Name="BRT">
+	      <Supplier ID="8260" Name="HandshoeMouse"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="14852015" Prod_id="MTP13DMB3RAA" ThumbPic="http://images.icecat.biz/thumbs/14852015.jpg" Name="Total Protection 2013, 3U">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="14852013" Prod_id="MIS13DMB3RAA" ThumbPic="http://images.icecat.biz/thumbs/14852013.jpg" Name="Internet Security 2013, 3U">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="14852011" Prod_id="MAV13DMB3RDA" ThumbPic="http://images.icecat.biz/thumbs/14852011.jpg" Name="AntiVirus Plus 2013, 3U, Upg.">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="14852004" Prod_id="AAI13DMB1RAA" ThumbPic="http://images.icecat.biz/thumbs/14852004.jpg" Name="All Access, Individual, NL">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="62" Reversed="0" Preferred="0">
+	    <Product ID="14852003" Prod_id="AAH13DMB5RAA" ThumbPic="http://images.icecat.biz/thumbs/14852003.jpg" Name="All Access, Household, NL">
+	      <Supplier ID="105" Name="McAfee"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116506753" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14717396" Prod_id="H2F43AA" ThumbPic="http://images.icecat.biz/thumbs/14717396.jpg" Name="x4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116502566" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14717395" Prod_id="H2F42AA" ThumbPic="http://images.icecat.biz/thumbs/14717395.jpg" Name="x4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116498471" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14717394" Prod_id="H2F41AA" ThumbPic="http://images.icecat.biz/thumbs/14717394.jpg" Name="x4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123511412" Category_ID="152" Reversed="0" Preferred="0">
+	    <Product ID="14717155" Prod_id="H1L07AA" ThumbPic="http://images.icecat.biz/thumbs/14717155.jpg" Name="2005pr USB 2.0 Port Replicator">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116487286" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14715320" Prod_id="H2F39AA" ThumbPic="http://images.icecat.biz/thumbs/14715320.jpg" Name="x4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116482659" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14715317" Prod_id="H2F48AA" ThumbPic="http://images.icecat.biz/thumbs/14715317.jpg" Name="x4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="123510330" Category_ID="152" Reversed="0" Preferred="0">
+	    <Product ID="14705134" Prod_id="H1L07AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/14717155.jpg" Name="2005pr USB 2.0 Port Replicator">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="128713602" Category_ID="2034" Reversed="0" Preferred="0">
+	    <Product ID="14702705" Prod_id="NS-CS200BLACK" ThumbPic="http://images.icecat.biz/thumbs/14702705.jpg" Name="NS-CS200BLACK">
+	      <Supplier ID="290" Name="Newstar"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="119006633" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="14688999" Prod_id="H1D25AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/14291054.jpg" Name="Essential Messenger">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="977" Reversed="0" Preferred="0">
+	    <Product ID="14634571" Prod_id="ASP48EU" ThumbPic="http://images.icecat.biz/thumbs/14634571.jpg" Name="Defcon">
+	      <Supplier ID="128" Name="Targus"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116405031" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14542828" Prod_id="H2P31AA" ThumbPic="http://images.icecat.biz/thumbs/14542828.jpg" Name="2.4GHz Wireless Optical Alexandre Hercovitch SE">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116402932" Category_ID="1020" Reversed="0" Preferred="0">
+	    <Product ID="14542826" Prod_id="H2C23AA" ThumbPic="http://images.icecat.biz/thumbs/14542826.jpg" Name="H1000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="119006630" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14537608" Prod_id="H2F47AA" ThumbPic="http://images.icecat.biz/thumbs/14537608.jpg" Name="x4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116397612" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14537607" Prod_id="H2F40AA" ThumbPic="http://images.icecat.biz/thumbs/14537607.jpg" Name="x4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124403378" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="14522461" Prod_id="H2W17AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/14457566.jpg" Name="Essential Top Load">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116342256" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="14521846" Prod_id="A5F64AA" ThumbPic="http://images.icecat.biz/thumbs/14521846.jpg" Name="HD 2300">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116339855" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14521842" Prod_id="H2C21AA" ThumbPic="http://images.icecat.biz/thumbs/14521842.jpg" Name="X1000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116337901" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="14521839" Prod_id="H2C25AA" ThumbPic="http://images.icecat.biz/thumbs/14521839.jpg" Name="Digital Premium SE">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116335542" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="14521813" Prod_id="A5F65AA" ThumbPic="http://images.icecat.biz/thumbs/14521813.jpg" Name="1300">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116333436" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="14521811" Prod_id="A5F63AA" ThumbPic="http://images.icecat.biz/thumbs/14521811.jpg" Name="HD 3300">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="243" Reversed="0" Preferred="0">
+	    <Product ID="14519987" Prod_id="F4U046CW" ThumbPic="http://images.icecat.biz/thumbs/14519987.jpg" Name="F4U046CW">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="243" Reversed="0" Preferred="0">
+	    <Product ID="14519986" Prod_id="F4U045CW" ThumbPic="http://images.icecat.biz/thumbs/14519986.jpg" Name="F4U045CW">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124403335" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="14457566" Prod_id="H2W17AA" ThumbPic="http://images.icecat.biz/thumbs/14457566.jpg" Name="Essential Top Load">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116324269" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="14291054" Prod_id="H1D25AA" ThumbPic="http://images.icecat.biz/thumbs/14291054.jpg" Name="Essential Messenger">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116319989" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14280664" Prod_id="H2C22AA" ThumbPic="http://images.icecat.biz/thumbs/14280664.jpg" Name="X3000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116317547" Category_ID="829" Reversed="0" Preferred="0">
+	    <Product ID="14259662" Prod_id="QL816AA" ThumbPic="http://images.icecat.biz/thumbs/14259662.jpg" Name="Notebook Battery Charger">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116301878" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="14110004" Prod_id="H2P65AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/14110004.jpg" Name="8GB PC3-12800 (DDR3 1600MHz) SO-DIMM">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116300889" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="14110003" Prod_id="H2P64AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/14110003.jpg" Name="4GB PC3-12800 (DDR3 1600MHz) SO-DIMM">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116299866" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="14110002" Prod_id="H2P63AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/14110002.jpg" Name="2GB PC3-12800 (DDR3 1600 MHz) SO-DIMM">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116296441" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="14109842" Prod_id="H2L63AA" ThumbPic="http://images.icecat.biz/thumbs/14109842.jpg" Name="Comfort Grip">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124403135" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="14109826" Prod_id="H2P63ET" ThumbPic="http://images.icecat.biz/thumbs/14109826.jpg" Name="PC3-12800 2GB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124402753" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="14109822" Prod_id="H2P64ET" ThumbPic="http://images.icecat.biz/thumbs/14109822.jpg" Name="PC3-12800 4GB">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124402371" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="14093011" Prod_id="H2P64ET#AC3" ThumbPic="http://images.icecat.biz/thumbs/14093011.jpg" Name="4 GB PC3-12800 (DDR3 1600 MHz) SODIMM">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124402116" Category_ID="911" Reversed="0" Preferred="0">
+	    <Product ID="14093010" Prod_id="H2P63ET#AC3" ThumbPic="http://images.icecat.biz/thumbs/14093010.jpg" Name="2 GB PC3-12800 (DDR3 1600 MHz) SODIMM">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="119006614" Category_ID="219" Reversed="0" Preferred="0">
+	    <Product ID="14071805" Prod_id="H2P67AA" ThumbPic="http://images.icecat.biz/thumbs/14071805.jpg" Name="750GB 7200rpm SATA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116257606" Category_ID="829" Reversed="0" Preferred="0">
+	    <Product ID="13689157" Prod_id="QL816AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/13689157.jpg" Name="QL816AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116249807" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="13653192" Prod_id="H1D34AA" ThumbPic="http://images.icecat.biz/thumbs/13653192.jpg" Name="x4000 Wireless Mouse w/ Laser Sensor">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901855" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="13653191" Prod_id="H1D33AA" ThumbPic="http://images.icecat.biz/thumbs/13653191.jpg" Name="x4000 Wireless Mouse w/ Laser Sensor">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116188767" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="12548995" Prod_id="QB683AA" ThumbPic="http://images.icecat.biz/thumbs/12548995.jpg" Name="QB683AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116186662" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="12482850" Prod_id="QA184AA" ThumbPic="http://images.icecat.biz/thumbs/12482850.jpg" Name="X7000 Wi-Fi Touch Mouse">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116184100" Category_ID="1020" Reversed="0" Preferred="0">
+	    <Product ID="12444910" Prod_id="QD834AA" ThumbPic="http://images.icecat.biz/thumbs/12444910.jpg" Name="H8000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116181988" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="12444894" Prod_id="A0X36AA" ThumbPic="http://images.icecat.biz/thumbs/12444894.jpg" Name="x5000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116179944" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="12444893" Prod_id="A0X35AA" ThumbPic="http://images.icecat.biz/thumbs/12444893.jpg" Name="x4000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116173730" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="12255228" Prod_id="H0X93AA" ThumbPic="http://images.icecat.biz/thumbs/12255228.jpg" Name="HD-5210">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="124970838" Category_ID="12" Reversed="0" Preferred="0">
+	    <Product ID="12229037" Prod_id="YD304AA" ThumbPic="http://images.icecat.biz/thumbs/12229037.jpg" Name="Microsoft Office Home &amp; Business 2010 NL PKC">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116142633" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="11856747" Prod_id="LR374AA" ThumbPic="http://images.icecat.biz/thumbs/11856747.jpg" Name="HD-5210">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116134903" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="11819107" Prod_id="QF373AA" ThumbPic="http://images.icecat.biz/thumbs/11819107.jpg" Name="HA3000">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="136949645" Category_ID="869" Reversed="0" Preferred="0">
+	    <Product ID="11678032" Prod_id="A3H24AA" ThumbPic="http://images.icecat.biz/thumbs/11678032.jpg" Name="A3H24AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116115945" Category_ID="214" Reversed="0" Preferred="0">
+	    <Product ID="11262428" Prod_id="A2U57AA" ThumbPic="http://images.icecat.biz/thumbs/11262428.jpg" Name="Mobile USB NLS DVD-RW Drive">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116113383" Category_ID="1840" Reversed="0" Preferred="0">
+	    <Product ID="11180748" Prod_id="A0X37AA" ThumbPic="http://images.icecat.biz/thumbs/11180748.jpg" Name="A0X37AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116081432" Category_ID="1840" Reversed="0" Preferred="0">
+	    <Product ID="10949574" Prod_id="A0X37AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/10949574.jpg" Name="A0X37AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116075623" Category_ID="214" Reversed="0" Preferred="0">
+	    <Product ID="10798639" Prod_id="A2U57AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/10798639.jpg" Name="Mobile USB NLS DVD-RW Drive">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116040125" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="9496936" Prod_id="LR918AA" ThumbPic="http://images.icecat.biz/thumbs/9496936.jpg" Name="LR918AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116031746" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="9449439" Prod_id="LR378AA" ThumbPic="http://images.icecat.biz/thumbs/9449439.jpg" Name="Black Cherry">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116027169" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="9416964" Prod_id="LQ083AA" ThumbPic="http://images.icecat.biz/thumbs/9416964.jpg" Name="LQ083AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="131962612" Category_ID="243" Reversed="0" Preferred="0">
+	    <Product ID="9149095" Prod_id="BM868AA" ThumbPic="http://images.icecat.biz/thumbs/5897312.jpg" Name="LAN &amp; USB Travel Hub">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="9007753" Prod_id="M7J-00015" ThumbPic="http://images.icecat.biz/thumbs/9007753.jpg" Name="Wireless Desktop 2000">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116006161" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="8961616" Prod_id="QM196AA" ThumbPic="http://images.icecat.biz/thumbs/8961616.jpg" Name="LCD Monitor Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="116005673" Category_ID="814" Reversed="0" Preferred="0">
+	    <Product ID="8961615" Prod_id="QK647AA" ThumbPic="http://images.icecat.biz/thumbs/8961615.jpg" Name="PR08">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="115989821" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="8886006" Prod_id="VP052AA" ThumbPic="http://images.icecat.biz/thumbs/8886006.jpg" Name="In-ear Stereo Headset">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="2918" Reversed="0" Preferred="0">
+	    <Product ID="8530488" Prod_id="F3Y006CP1.5M" ThumbPic="http://images.icecat.biz/thumbs/8530488.jpg" Name="F3Y006CP1.5M">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="115974908" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="8525397" Prod_id="LB454AA" ThumbPic="http://images.icecat.biz/thumbs/8525397.jpg" Name="LB454AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901836" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="8215862" Prod_id="WZ972AA" ThumbPic="http://images.icecat.biz/thumbs/8215862.jpg" Name="Classic Wired Keyboard">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901835" Category_ID="977" Reversed="0" Preferred="0">
+	    <Product ID="8104587" Prod_id="AY475AA" ThumbPic="http://images.icecat.biz/thumbs/8104587.jpg" Name="AY475AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901834" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="7949282" Prod_id="WZ972AA#ABH" ThumbPic="http://images.icecat.biz/thumbs/7949282.jpg" Name="Classic Wired Keyboard">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="2918" Reversed="0" Preferred="0">
+	    <Product ID="7934403" Prod_id="F3Y017CP3M-BLK" ThumbPic="http://images.icecat.biz/thumbs/7934403.jpg" Name="3m HDMI Cables">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="1158" Reversed="0" Preferred="0">
+	    <Product ID="7934386" Prod_id="F3U154CP1.8M" ThumbPic="http://images.icecat.biz/thumbs/7934386.jpg" Name="F3U154CP1.8M">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="1158" Reversed="0" Preferred="0">
+	    <Product ID="7934385" Prod_id="F3U154CP0.9M" ThumbPic="http://images.icecat.biz/thumbs/7934385.jpg" Name="F3U154CP0.9M">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="883" Reversed="0" Preferred="0">
+	    <Product ID="7934306" Prod_id="A3L980CP01MBKHS" ThumbPic="http://images.icecat.biz/thumbs/7934306.jpg" Name="1m 6 UTP">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="2917" Reversed="0" Preferred="0">
+	    <Product ID="7923277" Prod_id="F8V3319CP1.5M" ThumbPic="http://images.icecat.biz/thumbs/7923277.jpg" Name="3.5mm Audio Stereo Cable 1.5m">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="2917" Reversed="0" Preferred="0">
+	    <Product ID="7923268" Prod_id="F8V3013CP1.5MG" ThumbPic="http://images.icecat.biz/thumbs/7923268.jpg" Name="F8V3013CP1.5MG">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685657" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="7922826" Prod_id="BR376AA" ThumbPic="http://images.icecat.biz/thumbs/7922826.jpg" Name="BR376AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685656" Category_ID="822" Reversed="0" Preferred="0">
+	    <Product ID="7908914" Prod_id="XW576AA" ThumbPic="http://images.icecat.biz/thumbs/7908914.jpg" Name="XW576AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="131916333" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="7803831" Prod_id="XA407AA" ThumbPic="http://images.icecat.biz/thumbs/7803831.jpg" Name="HD-4110">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685655" Category_ID="942" Reversed="0" Preferred="0">
+	    <Product ID="7803395" Prod_id="AW664AA" ThumbPic="http://images.icecat.biz/thumbs/7803395.jpg" Name="Adjustable Dual Display Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901830" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="7556467" Prod_id="XA964AA" ThumbPic="http://images.icecat.biz/thumbs/7556467.jpg" Name="XA964AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="131896119" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="7067578" Prod_id="XQ500AA" ThumbPic="http://images.icecat.biz/thumbs/7067578.jpg" Name="XQ500AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="1158" Reversed="0" Preferred="0">
+	    <Product ID="7016702" Prod_id="F3U151CP1.8M" ThumbPic="http://images.icecat.biz/thumbs/7016702.jpg" Name="F3U151CP1.8M">
+	      <Supplier ID="32" Name="Belkin"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901829" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="6939670" Prod_id="XR343AA" ThumbPic="http://images.icecat.biz/thumbs/6939670.jpg" Name="Urban Backpack">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="131888601" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="6931065" Prod_id="XA965AA" ThumbPic="http://images.icecat.biz/thumbs/6247918.jpg" Name="XA965AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901828" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="6268415" Prod_id="XA490AA" ThumbPic="http://images.icecat.biz/thumbs/6268415.jpg" Name="XA490AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="131864970" Category_ID="577" Reversed="0" Preferred="0">
+	    <Product ID="6099365" Prod_id="BK357AA" ThumbPic="http://images.icecat.biz/thumbs/6099365.jpg" Name="HD-3110">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685654" Category_ID="977" Reversed="0" Preferred="0">
+	    <Product ID="6067273" Prod_id="BV411AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/6057983.jpg" Name="Keyed Cable Lock">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901826" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="6065771" Prod_id="BT796AA" ThumbPic="http://images.icecat.biz/thumbs/6065771.jpg" Name="90W Slim Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685653" Category_ID="977" Reversed="0" Preferred="0">
+	    <Product ID="6057983" Prod_id="BV411AA" ThumbPic="http://images.icecat.biz/thumbs/6057983.jpg" Name="BV411AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="131827611" Category_ID="243" Reversed="0" Preferred="0">
+	    <Product ID="5897312" Prod_id="BM868AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/5897312.jpg" Name="LAN &amp; USB Travel Hub">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685652" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="5897117" Prod_id="XP355AA" ThumbPic="http://images.icecat.biz/thumbs/5897117.jpg" Name="XP355AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901823" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="5897106" Prod_id="XP358AA" ThumbPic="http://images.icecat.biz/thumbs/5897106.jpg" Name="XP358AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="131816373" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="5893073" Prod_id="WW553AA" ThumbPic="http://images.icecat.biz/thumbs/5893073.jpg" Name="WW553AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="5866989" Prod_id="2LF-00016" ThumbPic="http://images.icecat.biz/thumbs/5866989.jpg" Name="Wireless Desktop 800">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685651" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="5844637" Prod_id="XP357AA" ThumbPic="http://images.icecat.biz/thumbs/5844637.jpg" Name="XP357AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685649" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="4844105" Prod_id="AW661AA" ThumbPic="http://images.icecat.biz/thumbs/4713930.jpg" Name="Dual Hinge Notebook Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685648" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="4844104" Prod_id="AW662AA" ThumbPic="http://images.icecat.biz/thumbs/4713933.jpg" Name="Display and Notebook Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685647" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="4843890" Prod_id="AW661AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/4713930.jpg" Name="Dual Hinge Notebook Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685646" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="4843887" Prod_id="AW663AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/4713922.jpg" Name="Adjustable Display Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685645" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="4843886" Prod_id="AW662AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/4713933.jpg" Name="Display &amp; Notebook Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685644" Category_ID="942" Reversed="0" Preferred="0">
+	    <Product ID="4843885" Prod_id="AW664AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/4843885.jpg" Name="Adjustable Dual Display Stand">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685643" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="4785484" Prod_id="BP849AA" ThumbPic="http://images.icecat.biz/thumbs/4785484.jpg" Name="BP849AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="12" Reversed="0" Preferred="0">
+	    <Product ID="4711521" Prod_id="T5D-00158" ThumbPic="http://images.icecat.biz/thumbs/4711521.jpg" Name="Office Home &amp; Business 2010 NL">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="12" Reversed="0" Preferred="0">
+	    <Product ID="4711520" Prod_id="269-14669" ThumbPic="http://images.icecat.biz/thumbs/4711520.jpg" Name="Office Professional 2010, DVD, 32/64 bit, NL">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="12" Reversed="0" Preferred="0">
+	    <Product ID="4707857" Prod_id="79G-01899" ThumbPic="http://images.icecat.biz/thumbs/4707857.jpg" Name="Office Home &amp; Student 2010 NL">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134433906" Category_ID="219" Reversed="0" Preferred="0">
+	    <Product ID="4706303" Prod_id="AU098AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/3539048.jpg" Name="500-GB 7200rpm Primary SATA Hard Drive">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="12" Reversed="0" Preferred="0">
+	    <Product ID="4706274" Prod_id="T5D-00294" ThumbPic="http://images.icecat.biz/thumbs/4706274.jpg" Name="Office Home &amp; Business 2010 NL">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="12" Reversed="0" Preferred="0">
+	    <Product ID="4706264" Prod_id="269-14833" ThumbPic="http://images.icecat.biz/thumbs/4706264.jpg" Name="Office Professional 2010 NL">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="12" Reversed="0" Preferred="0">
+	    <Product ID="4706117" Prod_id="79G-02019" ThumbPic="http://images.icecat.biz/thumbs/4706117.jpg" Name="Office Home &amp; Student 2010 NL">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="130685642" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="4235017" Prod_id="AX727AA" ThumbPic="http://images.icecat.biz/thumbs/5081404.jpg" Name="65W Slim Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="128359823" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="4152840" Prod_id="NSLS100" ThumbPic="http://images.icecat.biz/thumbs/4152840.jpg" Name="NSLS100">
+	      <Supplier ID="290" Name="Newstar"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901812" Category_ID="1637" Reversed="0" Preferred="0">
+	    <Product ID="4141519" Prod_id="VT501AA" ThumbPic="http://images.icecat.biz/thumbs/3915864.jpg" Name="Digital Stereo Headset">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="129901811" Category_ID="977" Reversed="0" Preferred="0">
+	    <Product ID="4011954" Prod_id="AY475AA#AC3" ThumbPic="http://images.icecat.biz/thumbs/4011954.jpg" Name="AY475AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134373288" Category_ID="1285" Reversed="0" Preferred="0">
+	    <Product ID="3933836" Prod_id="AY530AA" ThumbPic="http://images.icecat.biz/thumbs/3933836.jpg" Name="Professional Slim Top Load Case">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="3656856" Prod_id="AWE55EU" ThumbPic="http://images.icecat.biz/thumbs/3656856.jpg" Name="Lap Chill Mat">
+	      <Supplier ID="128" Name="Targus"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134305910" Category_ID="219" Reversed="0" Preferred="0">
+	    <Product ID="3539048" Prod_id="AU098AA" ThumbPic="http://images.icecat.biz/thumbs/3539048.jpg" Name="AU098AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="0" Category_ID="194" Reversed="0" Preferred="0">
+	    <Product ID="3507697" Prod_id="CSD-00019" ThumbPic="http://images.icecat.biz/thumbs/3507697.jpg" Name="Wireless Comfort Desktop 5000">
+	      <Supplier ID="100" Name="Microsoft"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134287655" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="3445320" Prod_id="AJ652AA#ABH" ThumbPic="http://images.icecat.biz/thumbs/2504662.jpg" Name="90W Smart AC/Auto/Air Combo Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134238268" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="2131141" Prod_id="AJ652AA" ThumbPic="http://images.icecat.biz/thumbs/2504662.jpg" Name="90W Smart AC/Auto/Air Combo Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684147" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="2095708" Prod_id="KY619AA" ThumbPic="http://images.icecat.biz/thumbs/2095708.jpg" Name="KY619AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684142" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="1997291" Prod_id="FQ983AA#ABH" ThumbPic="http://images.icecat.biz/thumbs/1662696.jpg" Name="Laser Mobile Mini Mouse">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="128083417" Category_ID="1514" Reversed="0" Preferred="0">
+	    <Product ID="1351682" Prod_id="NOTEBOOK-D100" ThumbPic="http://images.icecat.biz/thumbs/1351682.jpg" Name="NOTEBOOK-D100">
+	      <Supplier ID="290" Name="Newstar"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="134052089" Category_ID="822" Reversed="0" Preferred="0">
+	    <Product ID="797828" Prod_id="RR316AA" ThumbPic="http://images.icecat.biz/thumbs/797828.jpg" Name="RR316AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684106" Category_ID="195" Reversed="0" Preferred="0">
+	    <Product ID="653721" Prod_id="RH304AA" ThumbPic="http://images.icecat.biz/thumbs/653721.jpg" Name="RH304AA">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+	  <ProductRelated ID="117684105" Category_ID="827" Reversed="0" Preferred="0">
+	    <Product ID="509090" Prod_id="ED495AA" ThumbPic="http://images.icecat.biz/thumbs/460776.jpg" Name="90W Smart AC Adapter">
+	      <Supplier ID="1" Name="HP"/>
+	    </Product>
+	  </ProductRelated>
+
+   
+	  <SummaryDescription>
+	    <ShortSummaryDescription langid="11">HP 4740s ProBook, Notebook, Concha, 2,6 GHz, Intel Core i5, i5-3230M, 4 GB</ShortSummaryDescription>
+	    <LongSummaryDescription langid="11">HP 4740s, ProBook. Tipo de produto: Notebook, Estrutura: Concha. Velocidade da CPU: 2,6 GHz, Família de processador: Intel Core i5, Modelo de processador: i5-3230M. Capacidade da memória incorporada: 4 GB, Tipo de memória incorporada: DDR3-SDRAM, Velocidade do clock: 1333 MHz. Capacidade total de armazenamento: 750 GB, Armazenamento: HDD, Capacidade do Disco Rígido: 750 GB. Tamanho do ecrã na diagonal (pol.): 43,94 cm (17.3&quot;), Resolução: 1600 x 900 pixels, Rácio de aspecto: 16:9</LongSummaryDescription>
+	  </SummaryDescription>
+
+    <Supplier ID="1" Name="HP"/>
+   </Product>
+</ICECAT-interface>

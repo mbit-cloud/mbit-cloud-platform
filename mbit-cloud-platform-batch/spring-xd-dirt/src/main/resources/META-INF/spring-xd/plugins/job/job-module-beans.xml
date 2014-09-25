@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:int="http://www.springframework.org/schema/integration"
+	xsi:schemaLocation="http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 	<bean id="registrar" class="org.springframework.xd.dirt.plugins.job.BatchJobRegistryBeanPostProcessor">
+		<property name="jobRegistry" ref="jobRegistry"/>
+		<property name="groupName" value="${xd.job.name}"/>
+		<property name="jobLocator" ref="distributedJobLocator"/>
+	</bean>
+
+	<int:channel id="input" />
+
+	<int:transformer id="jobLaunchRequestTransformer"
+		input-channel="input" output-channel="jobLaunchingChannel" >
+		<bean class="org.springframework.xd.dirt.plugins.job.JobLaunchRequestTransformer">
+			<constructor-arg name="jobRegistry" ref="jobRegistry"/>
+			<constructor-arg name="jobName" value="${xd.job.name}"/>
+			<property name="dateFormatAsString" value="${dateFormat}"/>
+			<property name="numberFormatAsString" value="${numberFormat}"/>
+			<property name="makeParametersUnique" value="${makeUnique}"/>
+		</bean>
+	</int:transformer>
+
+	<int:channel id="jobLaunchingChannel"/>
+
+	<int:service-activator id="jobLaunchingMessageHandler" method="launch"
+		input-channel="jobLaunchingChannel" output-channel="nullChannel">
+		<bean class="org.springframework.batch.integration.launch.JobLaunchingMessageHandler">
+			<constructor-arg ref="jobLauncher"/>
+		</bean>
+	</int:service-activator> -->
+
+	<!--  XD Batch Job listeners that are registered by activating their profiles when the job module is deployed -->
+	<!--  Please see org.springframework.xd.dirt.plugins.job.support.listener.XDJobListenerConstants that maps all the below beans info -->
+<!-- 
+	<int:publish-subscribe-channel id="xd.job.aggregatedEvents" />
+
+	<beans profile="xd.jobExecutionListener">
+        <bean id="xd.jobExecutionListener" class="org.springframework.xd.dirt.plugins.job.support.listener.SimpleXdJobExecutionListener">
+			<constructor-arg index="0" ref="xd.job.jobExecutionEvents"/>
+			<constructor-arg index="1" ref="xd.job.aggregatedEvents"/>
+		</bean>
+		<int:publish-subscribe-channel id="xd.job.jobExecutionEvents" />
+	</beans>
+
+	<beans profile="xd.stepExecutionListener">
+		<bean id="xd.stepExecutionListener" class="org.springframework.xd.dirt.plugins.job.support.listener.SimpleXdStepExecutionListener">
+			<constructor-arg index="0" ref="xd.job.stepExecutionEvents"/>
+			<constructor-arg index="1" ref="xd.job.aggregatedEvents"/>
+		</bean>
+		<int:publish-subscribe-channel id="xd.job.stepExecutionEvents" />
+	</beans>
+
+	<beans profile="xd.chunkListener">
+		<bean id="xd.chunkListener" class="org.springframework.xd.dirt.plugins.job.support.listener.SimpleXdChunkListener">
+			<constructor-arg index="0" ref="xd.job.chunkEvents"/>
+			<constructor-arg index="1" ref="xd.job.aggregatedEvents"/>
+		</bean>
+		<int:publish-subscribe-channel id="xd.job.chunkEvents"/>
+	</beans>
+
+	<beans profile="xd.itemListener">
+		<bean id="xd.itemListener" class="org.springframework.xd.dirt.plugins.job.support.listener.SimpleXdItemListener">
+			<constructor-arg index="0" ref="xd.job.itemEvents"/>
+			<constructor-arg index="1" ref="xd.job.aggregatedEvents"/>
+		</bean>
+		<int:publish-subscribe-channel id="xd.job.itemEvents"/>
+	</beans>
+
+	<beans profile="xd.skipListener">
+		<bean id="xd.skipListener" class="org.springframework.xd.dirt.plugins.job.support.listener.SimpleXdSkipListener">
+			<constructor-arg index="0" ref="xd.job.skipEvents"/>
+			<constructor-arg index="1" ref="xd.job.aggregatedEvents"/>
+		</bean>
+		<int:publish-subscribe-channel id="xd.job.skipEvents"/>
+	</beans>
+ -->
+</beans>

@@ -15,6 +15,7 @@
     </parent>
     <modules>
         <module>mbit-shop-ui</module>
+        <module>hystrix-dashboard</module>
         <!-- <module>mbit-microservices-ui</module> -->
     </modules>
     

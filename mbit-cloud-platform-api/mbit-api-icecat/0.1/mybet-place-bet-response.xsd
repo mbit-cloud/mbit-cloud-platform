@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="mybet-combination-system.xsd"/>
+
+  <xs:element name="place-bet-response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="response" type="place-bet-response-base"/>
+      </xs:sequence>
+      <xs:attribute name="systemId" type="xs:long" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="place-bet-response-confirmation">
+    <xs:complexContent>
+      <xs:extension base="place-bet-response-base">
+        <xs:annotation>
+          <xs:documentation xml:lang="en"> This class extends the current AbstractBetConfirmation
+            class and acts as a bet placement response when there is no delay applied (synchronous
+            bet placement in general). </xs:documentation>
+        </xs:annotation>
+        <xs:choice>
+          <xs:element name="placedbet" type="combination-system"/>
+        </xs:choice>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="place-bet-delayed">
+    <xs:complexContent>
+      <xs:extension base="place-bet-response-base">
+        <xs:annotation>
+          <xs:documentation xml:lang="en"> This class extends current the AbstractBetConfirmation
+            class and acts as a bet placement response when there is delay applied (asynchronous
+            bet placement in general). </xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="delay" type="xs:long"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="place-bet-response-base" abstract="true"/>
+
+</xs:schema>
