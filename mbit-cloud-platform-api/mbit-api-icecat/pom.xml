@@ -164,7 +164,7 @@
                 </configuration>
             </plugin>
 
-			<plugin>
+			<!-- <plugin>
 		      <groupId>org.springframework.boot</groupId>
 		      <artifactId>spring-boot-maven-plugin</artifactId>
 		      <version>1.1.6.RELEASE</version>
@@ -175,11 +175,11 @@
 		          </goals>
 		        </execution>
 		      </executions>
-		    </plugin>
+		    </plugin> -->
 		</plugins>
 	</build>
-    </build>
-		
+   
+   	
   
   
 </project>
