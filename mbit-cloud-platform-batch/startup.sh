@@ -1,3 +1,3 @@
 #/bin/bash
 
-java -jar /opt/mbit-platform-nucleos-hystrix-server.jar
+java -jar /opt/mbit-platform-nucleos-batch-server.jar

@@ -1,8 +1,8 @@
 FROM boostrack/debian:java8-runtime
 
 ADD ./startup.sh /opt/startup.sh
-ADD ./target/mbit-hystrix-server-0.0.1-SNAPSHOT.jar /opt/mbit-platform-nucleos-hystrix-server.jar
+ADD ./spring-xd-dirt/target/mbit-platform-batch-dirt.jar /opt/mbit-platform-nucleos-batch-server.jar
 
-EXPOSE 7980
+EXPOSE 9393
 
 CMD ["/bin/bash", "/opt/startup.sh"]
