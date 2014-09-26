@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>boostrack-cloud-platform</groupId>
-    <artifactId>mbit-cloud-platform-nucleos</artifactId>
+    <artifactId>mbit-cloud-platform-octopus-infrastructure</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
   
@@ -14,8 +14,6 @@
         <module>mbit-eureka-server</module>
         <module>mbit-hystrix-server</module>
         <module>mbit-octopus-server</module>
-        <module>mbit-octopus-server-admin</module>
-        <module>mbit-octopus-server-batch-admin</module>
     </modules>
 
     <dependencyManagement>

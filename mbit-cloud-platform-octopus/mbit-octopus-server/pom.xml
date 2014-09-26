@@ -1,14 +1,21 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-	<groupId>boostrack-cloud-platform-batch</groupId>
-    <artifactId>mbit-platform-batch</artifactId>
-   	<version>0.0.1.BUILD-SNAPSHOT</version>
-	<packaging>pom</packaging>
-	<name>Boostrack Platform Custom XD Modules</name>
+    <groupId>boostrack-cloud-platform</groupId>
+    <artifactId>mbit-cloud-platform-octopus-core</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+  
+    <modules>
+        <module>mbit-octopus-server-core</module>
+        <module>mbit-octopus-server-core-admin</module>
+        <module>mbit-octopus-server-core-batch-admin</module>
+    </modules>
 
-	<dependencyManagement>
+    <dependencyManagement>
 
         <dependencies>
 
@@ -23,29 +30,43 @@
         </dependencies>
     </dependencyManagement>
 
-	<modules>
-		<module>spring-xd-rest-domain</module>
-		<module>spring-xd-rest-client</module>	
-		<module>spring-xd-analytics</module>
-		<module>spring-xd-dirt</module>	
-	</modules>
-	
-	<properties>
-        <java.version>1.7</java.version>
-	</properties>
-
-	<repositories>
-		<repository>
-			<id>spring-libs-snapshot</id>
-			<url>http://repo.spring.io/libs-snapshot</url>
-		</repository>
-	</repositories>
-	
-	<pluginRepositories>
-		<pluginRepository>
-			<id>spring-libs-release</id>
-			<url>http://repo.spring.io/libs-release</url>
-		</pluginRepository>
-	</pluginRepositories>
-
+    <dependencies>
+          <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+    <repositories>
+        <repository>
+            <id>libs-release-local</id>
+            <url>http://repo.spring.io/libs-release-local</url>
+        </repository>
+        <repository>
+            <id>libs-milestone-local</id>
+            <url>http://repo.spring.io/libs-milestone-local</url>
+        </repository>
+        <repository>
+            <id>libs-snapshot-local</id>
+            <url>http://repo.spring.io/libs-snapshot-local</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>libs-release-local</id>
+            <url>http://repo.spring.io/libs-release-local</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>libs-milestone-local</id>
+            <url>http://repo.spring.io/libs-milestone-local</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>libs-snapshot-local</id>
+            <url>http://repo.spring.io/libs-snapshot-local</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
