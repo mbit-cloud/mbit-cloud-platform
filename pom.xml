@@ -14,11 +14,11 @@
         <version>1.0.0.BUILD-SNAPSHOT</version>
     </parent>
     <modules>       
-        <module>mbit-cloud-platform-octupus</module>
-        <module>mbit-cloud-platform-octupus-api</module>
-        <module>mbit-cloud-platform-octupus-identity</module>
-        <module>mbit-cloud-platform-octupus-microservices</module>
-        <module>mbit-cloud-platform-octupus-web</module>
+        <module>mbit-cloud-platform-octopus</module>
+        <module>mbit-cloud-platform-octopus-api</module>
+        <module>mbit-cloud-platform-octopus-identity</module>
+        <module>mbit-cloud-platform-octopus-microservices</module>
+        <module>mbit-cloud-platform-octopus-web</module>
     </modules>
     <dependencies>
         <dependency>
