@@ -11,8 +11,9 @@
   
     <modules>
         <module>mbit-config-server</module>
-        <module>mbit-hystrix-server</module>
         <module>mbit-eureka-server</module>
+        <module>mbit-hystrix-server</module>
+        <module>mbit-nucleos-server</module>
     </modules>
 
     <dependencyManagement>
