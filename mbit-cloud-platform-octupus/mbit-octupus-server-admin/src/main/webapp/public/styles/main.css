@@ -1,0 +1,69 @@
+@import "fontcustom.css";
+@import "icons.css";
+@import "buttons.css";
+@import "typography.css";
+@import "base.css";
+@import "application.css";
+@import "highlight.css";
+
+.table > thead > tr > th {
+  background-color: #34302D;  /* lighten 3% */
+  color: #f1f1f1;
+}
+
+.table tr.highlight > td {
+  background-color: #6db33f !important;
+  font-weight: bold;
+}
+
+.table-filter {
+  background-color: #34302D;
+  padding: 9px 12px;
+}
+
+.nav > li > a {
+  color: #838789;
+}
+
+.nav {
+  margin-bottom: 0;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+  background-color: #34302D;
+  border-color: #34302D;
+  color: #f1f1f1;
+}
+
+a.spring-boot-logo {
+  background: url("../img/platform-spring-boot.png") -1px -1px no-repeat;
+}
+
+a.spring-boot-logo span {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background: url("../img/platform-spring-boot.png") 20px -6px no-repeat;
+}
+
+a:hover.spring-boot-logo span {
+  opacity: 1;
+}
+
+span.up {
+	color: #00AA00;
+}
+
+span.offline {
+	color: #DD0000;
+	font-weight: bold;
+}
+
+span.down, span.outofservice {
+	color: #FF8800;
+	font-weight: bold;
+}
+
+span.unknown {
+	color: #DDDDDD;
+}

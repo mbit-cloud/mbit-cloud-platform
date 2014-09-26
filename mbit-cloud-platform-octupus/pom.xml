@@ -4,28 +4,37 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>boostrack-cloud-platform-parent</groupId>
-    <artifactId>mbit-cloud-platform</artifactId>
+    <groupId>boostrack-cloud-platform</groupId>
+    <artifactId>mbit-cloud-platform-nucleos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <parent>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starters</artifactId>
-        <version>1.0.0.BUILD-SNAPSHOT</version>
-    </parent>
-    <modules>       
-        <module>mbit-cloud-platform-octupus</module>
-        <module>mbit-cloud-platform-octupus-api</module>
-        <module>mbit-cloud-platform-octupus-identity</module>
-        <module>mbit-cloud-platform-octupus-microservices</module>
-        <module>mbit-cloud-platform-octupus-web</module>
+  
+    <modules>
+        <module>mbit-config-server</module>
+        <module>mbit-eureka-server</module>
+        <module>mbit-hystrix-server</module>
+        <module>mbit-octupus-server</module>
+        <module>mbit-octupus-server-admin</module>
+        <module>mbit-octupus-server-batch-admin</module>
     </modules>
+
+    <dependencyManagement>
+
+        <dependencies>
+
+            <dependency>
+                <!-- Import dependency management from Spring Boot -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>1.1.6.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
-        <dependency>
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-        </dependency>
-        <dependency>
+          <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
