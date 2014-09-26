@@ -1,0 +1,4 @@
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.web: DEBUG

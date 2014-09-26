@@ -15,6 +15,8 @@
 	<name>mbit-cloud-platform-microservices</name>
 
 	<modules>
+		<module>rest-microservices-recomendation</module>
+		<!-- <module>rest-microservices-recomendation-engine</module> -->
 		<module>rest-microservices-store</module>
 		<module>rest-microservices-customers</module>
 		<module>rest-microservices-suppliers</module>

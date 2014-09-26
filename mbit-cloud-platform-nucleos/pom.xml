@@ -13,7 +13,8 @@
         <module>mbit-config-server</module>
         <module>mbit-eureka-server</module>
         <module>mbit-hystrix-server</module>
-        <module>mbit-nucleos-server</module>
+        <module>mbit-nucleos-admin</module>
+        <module>mbit-nucleos-batch-admin</module>
     </modules>
 
     <dependencyManagement>

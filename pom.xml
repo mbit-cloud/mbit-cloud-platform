@@ -19,7 +19,6 @@
         <module>mbit-cloud-platform-batch</module>
         <module>mbit-cloud-platform-microservices</module>
         <module>mbit-cloud-platform-nucleos</module>
-        <module>mbit-cloud-platform-recomendation</module>
         <module>mbit-cloud-platform-api</module>
     </modules>
     <dependencies>

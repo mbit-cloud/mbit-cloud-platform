@@ -1,0 +1,8 @@
+aldebran,Aldebran,50.00
+M1,Crab Nebula,100.00
+sb2014J,SN 2014J,150.00
+M27,Dumb Bell Nebula,25.00
+M57,Ring Nebula,25.00
+M97,Owl Nebula,25.00
+HH,lkhkla,22.00
+HH,lkhkla,22.00
