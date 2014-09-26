@@ -21,6 +21,7 @@
 		<module>rest-microservices-customers</module>
 		<module>rest-microservices-suppliers</module>
 		<module>rest-microservices-account</module>
+		<module>rest-microservices-bookstore</module>
 		<module>rest-microservices-doge</module>
 	</modules>
 
