@@ -2,11 +2,14 @@
 spring:
   application:
     name: doges
+  data:
+    mongodb:
+      uri: mongodb://mbit:mbit14@ds061839.mongolab.com:61839/stores
 
 server:
   port: 8082
 
-  
+
 logging:
   level:
     com.netflix.discovery: 'OFF'

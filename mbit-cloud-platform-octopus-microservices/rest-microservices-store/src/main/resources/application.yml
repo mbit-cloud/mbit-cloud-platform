@@ -4,7 +4,12 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost/stores
+      uri:  mongodb://mbit:mbit14@ds061839.mongolab.com:61839/stores
+  # rabbitmq:
+  #   host:  192.168.59.103
+  #   port:  15672
+  #   username:  boostrack
+  #   password:  123456
 
 logging:
   level:
