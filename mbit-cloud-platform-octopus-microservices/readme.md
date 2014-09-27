@@ -6,7 +6,8 @@
   - Customers (JPA)
   - Suppiers (JPA)
   - Catalog (JPA)
-  - BookStore (JPA  )
+  - recomendation (JPA)
+  - BookStore (JPA)
   - Usergrid (Cassandra)
   - Doge (MongoDB)
 
