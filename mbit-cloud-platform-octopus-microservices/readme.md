@@ -1,6 +1,7 @@
 # mbit Octopus REST micro-services
 
 - Three Spring Boot based Maven projects that are standalone applications:
+  - Account (JPA)
   - Stores (MongoDB)
   - Customers (JPA)
   - Suppiers (JPA)
