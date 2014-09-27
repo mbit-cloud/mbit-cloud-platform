@@ -12,6 +12,7 @@
     
     <modules>
         <module>mbit-api-icecat</module>
+        <!-- <module>mbit-api-aws-apa</module> -->
     </modules>
     
 </project>

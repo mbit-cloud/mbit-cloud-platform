@@ -1,0 +1,10 @@
+log
+target
+.settings
+.classpath
+.project
+.springBeans
+src/test/resources/aws-config.properties
+/.git
+*.iml
+.idea
