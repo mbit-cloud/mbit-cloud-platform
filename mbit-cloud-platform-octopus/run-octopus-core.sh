@@ -8,3 +8,6 @@ java -jar mbit-eureka-server/target/mbit-eureka-server-0.0.1-SNAPSHOT.jar &
 
 ## server initialized with port: 7980
 java -jar mbit-hystrix-server/target/mbit-hystrix-server-0.0.1-SNAPSHOT.jar &
+
+## server initialized with port: 8989
+java -jar mbit-turbine-server/target/mbit-turbine-server-0.0.1-SNAPSHOT.jar &

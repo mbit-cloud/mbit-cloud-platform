@@ -1,0 +1,27 @@
+info:
+  component: Turbine
+
+PREFIX:
+  
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+
+server:
+  port: 8989
+
+logging:
+  level: INFO
+
+eureka:
+  instance:
+    #Virtual host name by which the clients identifies this service
+    virtualHostName: ${spring.application.name}
+
+turbine:
+  aggregator:
+    clusterConfig: ${PREFIX:}CUSTOMERS
+  appConfig: customers
+

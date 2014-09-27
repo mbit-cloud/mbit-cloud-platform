@@ -13,7 +13,9 @@
         <module>mbit-config-server</module>
         <module>mbit-eureka-server</module>
         <module>mbit-hystrix-server</module>
+        <module>mbit-turbine-server</module>
         <module>mbit-octopus-server</module>
+        <module>mbit-octopus-cluster</module>
     </modules>
 
     <dependencyManagement>
